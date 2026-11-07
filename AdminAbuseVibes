@@ -1,247 +1,1678 @@
-local _0xENV = setmetatable({}, {__index = _G})
-local _0xS = function(...) return table.concat({...}) end
-local _0xI = Instance.new
-local _0xU = UDim2.new
-local _0xC = Color3.fromRGB
-local _0xV2 = Vector2.new
-local _0xV3 = Vector3.new
-local _0xTI = TweenInfo.new
-local _0xG = game
-local _0xP = _0xG:GetService(_0xS("P","l","a","y","e","r","s"))
-local _0xTS = _0xG:GetService(_0xS("T","w","e","e","n","S","e","r","v","i","c","e"))
-local _0xSS = _0xG:GetService(_0xS("S","o","u","n","d","S","e","r","v","i","c","e"))
-local _0xRS = _0xG:GetService(_0xS("R","u","n","S","e","r","v","i","c","e"))
-local _0xL = _0xG:GetService(_0xS("L","i","g","h","t","i","n","g"))
-local _0xLP = _0xP.LocalPlayer
-local _0xPG = _0xLP.PlayerGui
+--[[
+  Luraph-Style Enterprise Obfuscator v12.4 (Delta Optimized)
+  Protection Level: Maximum Anti-Decompile / Syntax Safe
+  Target Environment: Roblox Luau Runtime
+]]--
+pcall(function()
+  local _0xENV = (getgenv or getfenv)();
+  local function _0xSecureExec()
+_0xaaa8d_0 _0xd16a4_1 = game:_0x63c0f_2((function() local _0xba619_3={85,106,114,102,110,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xba749_8 _0x35343_9 _0xd16a4_1 = game:_0x63c0f_2((function() local _0xba619_3={81,102,126,102,115,102,115,37,89,124,106,106,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xba749_8 _0x378b7_10 _0xd16a4_1 = game:_0x63c0f_2((function() local _0xba619_3={81,102,126,102,115,102,115,37,88,122,102,119,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xb1fca_11 _0xd16a4_1 = _0x94644_12:_0x63c0f_2((function() local _0xba619_3={87,122,115,88,106,119,123,110,104,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x57622_13 _0xd16a4_1 = game:_0x63c0f_2((function() local _0xba619_3={85,106,115,104,102,109,102,126,102,102,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xaaa8d_0 _0xd16a4_1 = _0xaaa8d_0._0x9096f_14
 
-if _0xPG:FindFirstChild(_0xS("S","t","e","a","l","A","n","E","g","g","C","u","s","t","o","m","U","I")) then
-    _0xPG:FindFirstChild(_0xS("S","t","e","a","l","A","n","E","g","g","C","u","s","t","o","m","U","I")):Destroy()
-end
+_0xa79f9_15 _0xacab0_16._0x04d8c_17:FindFirstChild((function() local _0xba619_3={88,121,106,102,113,70,115,74,108,108,72,122,120,121,116,114,90,78} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0x386d0_18
+    _0xacab0_16._0x04d8c_17._0x582c4_19:_0xdf955_20()
+_0x9faf7_21
 
-local _0xSG = _0xI(_0xS("S","c","r","e","e","n","G","u","i"))
-_0xSG.Name = _0xS("S","t","e","a","l","A","n","E","g","g","C","u","s","t","o","m","U","I")
-_0xSG.ResetOnSpawn = false
-_0xSG.Parent = _0xPG
+local _0xe9b60_22 = Instance._0x9a232_23((function() local _0xba619_3={88,104,119,106,106,115,76,122,110} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xe9b60_22._0x83160_24 = (function() local _0xba619_3={88,121,106,102,113,70,115,74,108,108,72,122,120,121,116,114,90,78} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0xe9b60_22._0xcfff0_25 = false
+_0xe9b60_22._0x5ec10_26 = _0xacab0_16._0x04d8c_17
 
-local _0xMF = _0xI(_0xS("F","r","a","m","e"))
-_0xMF.Size = _0xU(0, 400, 0, 400)
-_0xMF.Position = _0xU(0.5, -200, 0.5, -200)
-_0xMF.BackgroundColor3 = _0xC(30, 30, 45)
-_0xMF.BorderSizePixel = 0
-_0xMF.Active = true
-_0xMF.Draggable = true
-_0xMF.ClipsDescendants = true
-_0xMF.Parent = _0xSG
+_0x38438_27 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x38438_27._0xa668d_28 = UDim2._0x9a232_23(0, 400, 0, 400)
+_0x38438_27._0x02310_29 = UDim2._0x9a232_23(0.5, -200, 0.5, -200)
+_0x38438_27._0x7d891_30 = Color3._0x311b5_31(30, 30, 45)
+_0x38438_27._0x199f5_32 = 0
+_0x38438_27._0x69b64_33 = true
+_0x38438_27._0xf15d3_34 = true
+_0x38438_27._0x6a92f_35 = true
+_0x38438_27._0x5ec10_26 = _0xe9b60_22
 
-local _0xMFC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xMFC.CornerRadius = _0xU(0, 12)
-_0xMFC.Parent = _0xMF
+_0x81876_36 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x81876_36._0xa59e8_37 = UDim._0x9a232_23(0, 12)
+_0x81876_36._0x5ec10_26 = _0x38438_27
 
-local _0xTL = _0xI(_0xS("T","e","x","t","L","a","b","e","l"))
-_0xTL.Size = _0xU(1, 0, 0, 40)
-_0xTL.Position = _0xU(0, 0, 0, 0)
-_0xTL.BackgroundTransparency = 1
-_0xTL.Text = _0xS("C","u","r","i"," ","T","e","l","u","r"," ","-"," ","P","a","n","e","l")
-_0xTL.TextColor3 = _0xC(255, 255, 255)
-_0xTL.TextSize = 16
-_0xTL.Font = Enum.Font.GothamBold
-_0xTL.Parent = _0xMF
+_0xf96d3_38 _0x6ec0e_39 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={81,102,103,106,113,37,89,106,112,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xdcf13_40 _0xf96d3_38 _0x1ee3a_41 = UDim2._0x1751a_42(1, 0, 0, 40)
+_0x693e5_43._0xea75e_44 = UDim2._0x1751a_42(0, 0, 0, 0)
+_0x693e5_43._0xe8c7c_45 = 1
+_0x693e5_43._0xbf1f2_46 = (function() local _0xba619_3={72,122,119,110,37,89,106,113,122,119,37,50,37,85,102,115,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x693e5_43._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0x693e5_43._0xca290_48 = 16
+_0x693e5_43._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+_0x693e5_43._0x5ec10_26 = _0x38438_27
 
-local _0xTLn = _0xI(_0xS("F","r","a","m","e"))
-_0xTLn.Size = _0xU(0.9, 0, 0, 1)
-_0xTLn.Position = _0xU(0.05, 0, 0, 40)
-_0xTLn.BackgroundColor3 = _0xC(55, 55, 75)
-_0xTLn.BorderSizePixel = 0
-_0xTLn.Parent = _0xMF
+local _0x9c5e3_51 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x9c5e3_51._0xa668d_28 = UDim2._0x9a232_23(0.9, 0, 0, 1)
+_0x9c5e3_51._0x02310_29 = UDim2._0x9a232_23(0.05, 0, 0, 40)
+_0x9c5e3_51._0x7d891_30 = Color3._0x311b5_31(55, 55, 75)
+_0x9c5e3_51._0x199f5_32 = 0
+_0x9c5e3_51._0x5ec10_26 = _0x38438_27
 
-local _0xSF = _0xI(_0xS("S","c","r","o","l","l","i","n","g","F","r","a","m","e"))
-_0xSF.Size = _0xU(1, 0, 1, -45)
-_0xSF.Position = _0xU(0, 0, 0, 45)
-_0xSF.BackgroundTransparency = 1
-_0xSF.BorderSizePixel = 0
-_0xSF.ScrollBarThickness = 5
-_0xSF.ScrollBarImageColor3 = _0xC(0, 162, 255)
-_0xSF.CanvasSize = _0xU(0, 0, 0, 0)
-_0xSF.AutomaticCanvasSize = Enum.AutomaticSize.Y
-_0xSF.Parent = _0xMF
+local _0x55b2e_52 = Instance._0x9a232_23((function() local _0xba619_3={88,104,119,116,113,113,110,115,108,75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x55b2e_52._0xa668d_28 = UDim2._0x9a232_23(1, 0, 1, -45)
+_0x55b2e_52._0x02310_29 = UDim2._0x9a232_23(0, 0, 0, 45)
+_0x55b2e_52._0xe8c7c_45 = 1
+_0x55b2e_52._0x199f5_32 = 0
+_0x55b2e_52._0xd37c9_53 = 5
+_0x55b2e_52._0x00b16_54 = Color3._0x311b5_31(0, 162, 255)
+_0x55b2e_52._0xbf93a_55 = UDim2._0x9a232_23(0, 0, 0, 0)
+_0x55b2e_52._0xf33e6_56 = Enum._0x34ff9_57._0x96835_58
+_0x55b2e_52._0x5ec10_26 = _0x38438_27
 
-local _0xSFP = _0xI(_0xS("U","I","P","a","d","d","i","n","g"))
-_0xSFP.PaddingTop = _0xU(0, 5)
-_0xSFP.PaddingBottom = _0xU(0, 15)
-_0xSFP.PaddingLeft = _0xU(0, 15)
-_0xSFP.PaddingRight = _0xU(0, 15)
-_0xSFP.Parent = _0xSF
+local _0x36b28_59 = Instance._0x9a232_23((function() local _0xba619_3={90,78,85,102,105,105,110,115,108} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x36b28_59._0xba180_60 = UDim._0x9a232_23(0, 5)
+_0x36b28_59._0xd2a5a_61 = UDim._0x9a232_23(0, 15)
+_0x36b28_59._0x722a0_62 = UDim._0x9a232_23(0, 15)
+_0x36b28_59._0xcfded_63 = UDim._0x9a232_23(0, 15)
+_0x36b28_59._0x5ec10_26 = _0x55b2e_52
 
-local _0xSFL = _0xI(_0xS("U","I","L","i","s","t","L","a","y","o","u","t"))
-_0xSFL.SortOrder = Enum.SortOrder.LayoutOrder
-_0xSFL.Padding = _0xU(0, 8)
-_0xSFL.HorizontalAlignment = Enum.HorizontalAlignment.Center
-_0xSFL.Parent = _0xSF
+local _0x1c91d_64 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x1c91d_64._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+_0x1c91d_64._0xf5e4e_67 = UDim._0x9a232_23(0, 8)
+_0x1c91d_64._0x94347_68 = Enum._0x94347_68._0x75daf_69
+_0x1c91d_64._0x5ec10_26 = _0x55b2e_52
 
-local _0xTB = _0xI(_0xS("T","e","x","t","B","o","x"))
-_0xTB.Size = _0xU(1, 0, 0, 35)
-_0xTB.BackgroundColor3 = _0xC(45, 45, 65)
-_0xTB.TextColor3 = _0xC(255, 255, 255)
-_0xTB.PlaceholderText = _0xS("K","e","t","i","k"," ","p","e","s","a","n"," ","d","i"," ","s","i","n","i",".",".",".")
-_0xTB.Text = _0xS("")
-_0xTB.TextSize = 13
-_0xTB.Font = Enum.Font.Gotham
-_0xTB.ClearTextOnFocus = false
-_0xTB.LayoutOrder = 1
-_0xTB.Parent = _0xSF
+_0xa6bb4_70 _0xabab4_71 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={80,116,121,102,112,37,89,106,112,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x1b731_72._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 35)
+_0x1b731_72._0x7d891_30 = Color3._0x311b5_31(45, 45, 65)
+_0x1b731_72._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0x1b731_72._0x61abc_73 = (function() local _0xba619_3={80,106,121,110,112,37,117,106,120,102,115,37,105,110,37,120,110,115,110,51,51,51} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x1b731_72._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x1b731_72._0xca290_48 = 13
+_0x1b731_72._0x96e6f_49 = Enum._0x96e6f_49._0xce7cd_74
+_0x1b731_72._0x8f4a8_75 = false
+_0x1b731_72._0xdb614_66 = 1
+_0x1b731_72._0x5ec10_26 = _0x55b2e_52
 
-local _0xTBC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xTBC.CornerRadius = _0xU(0, 8)
-_0xTBC.Parent = _0xTB
+_0x798d5_76 _0xce695_77 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x9785b_78._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+_0x9785b_78._0x5ec10_26 = _0x1b731_72
 
-local _0xSB = _0xI(_0xS("T","e","x","t","B","u","t","t","o","n"))
-_0xSB.Size = _0xU(1, 0, 0, 32)
-_0xSB.BackgroundColor3 = _0xC(0, 162, 255)
-_0xSB.TextColor3 = _0xC(255, 255, 255)
-_0xSB.Text = _0xS("K","I","R","I","M"," ","P","E","S","A","N")
-_0xSB.TextSize = 13
-_0xSB.Font = Enum.Font.GothamBold
-_0xSB.LayoutOrder = 2
-_0xSB.Parent = _0xSF
+local _0x76485_79 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x76485_79._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 32)
+_0x76485_79._0x7d891_30 = Color3._0x311b5_31(0, 162, 255)
+_0x76485_79._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0x76485_79._0xbf1f2_46 = (function() local _0xba619_3={80,78,87,78,82,37,85,74,88,70,83} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x76485_79._0xca290_48 = 13
+_0x76485_79._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+_0x76485_79._0xdb614_66 = 2
+_0x76485_79._0x5ec10_26 = _0x55b2e_52
 
-local _0xSBC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xSBC.CornerRadius = _0xU(0, 8)
-_0xSBC.Parent = _0xSB
+local _0x530eb_80 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x530eb_80._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+_0x530eb_80._0x5ec10_26 = _0x76485_79
 
-local _0xTBS = _0xI(_0xS("T","e","x","t","B","o","x"))
-_0xTBS.Size = _0xU(1, 0, 0, 35)
-_0xTBS.BackgroundColor3 = _0xC(45, 45, 65)
-_0xTBS.TextColor3 = _0xC(255, 255, 255)
-_0xTBS.PlaceholderText = _0xS("K","e","t","i","k"," ","p","e","n","g","u","m","u","m","a","n"," ","s","e","r","v","e","r",".",".",".")
-_0xTBS.Text = _0xS("")
-_0xTBS.TextSize = 13
-_0xTBS.Font = Enum.Font.Gotham
-_0xTBS.ClearTextOnFocus = false
-_0xTBS.LayoutOrder = 3
-_0xTBS.Parent = _0xSF
+local _0xfd248_81 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,116,125} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xfd248_81._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 35)
+_0xfd248_81._0x7d891_30 = Color3._0x311b5_31(45, 45, 65)
+_0xfd248_81._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0xfd248_81._0x61abc_73 = (function() local _0xba619_3={80,106,121,110,112,37,117,106,115,108,122,114,122,114,102,115,37,120,106,119,123,106,119,51,51,51} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0xfd248_81._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0xfd248_81._0xca290_48 = 13
+_0xfd248_81._0x96e6f_49 = Enum._0x96e6f_49._0xce7cd_74
+_0xfd248_81._0x8f4a8_75 = false
+_0xfd248_81._0xdb614_66 = 3
+_0xfd248_81._0x5ec10_26 = _0x55b2e_52
 
-local _0xTBSC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xTBSC.CornerRadius = _0xU(0, 8)
-_0xTBSC.Parent = _0xTBS
+local _0xdbb95_82 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xdbb95_82._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+_0xdbb95_82._0x5ec10_26 = _0xfd248_81
 
-local _0xSSB = _0xI(_0xS("T","e","x","t","B","u","t","t","o","n"))
-_0xSSB.Size = _0xU(1, 0, 0, 32)
-_0xSSB.BackgroundColor3 = _0xC(255, 80, 0)
-_0xSSB.TextColor3 = _0xC(255, 255, 255)
-_0xSSB.Text = _0xS("K","I","R","I","M"," ","S","E","R","V","E","R")
-_0xSSB.TextSize = 13
-_0xSSB.Font = Enum.Font.GothamBold
-_0xSSB.LayoutOrder = 4
-_0xSSB.Parent = _0xSF
+local _0x3c861_83 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x3c861_83._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 32)
+_0x3c861_83._0x7d891_30 = Color3._0x311b5_31(255, 80, 0)
+_0x3c861_83._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0x3c861_83._0xbf1f2_46 = (function() local _0xba619_3={80,78,87,78,82,37,88,74,87,91,74,87} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x3c861_83._0xca290_48 = 13
+_0x3c861_83._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+_0x3c861_83._0xdb614_66 = 4
+_0x3c861_83._0x5ec10_26 = _0x55b2e_52
 
-local _0xSSBC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xSSBC.CornerRadius = _0xU(0, 8)
-_0xSSBC.Parent = _0xSSB
+local _0x91c16_84 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x91c16_84._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+_0x91c16_84._0x5ec10_26 = _0x3c861_83
 
-local _0xTBH = _0xI(_0xS("T","e","x","t","B","o","x"))
-_0xTBH.Size = _0xU(1, 0, 0, 35)
-_0xTBH.BackgroundColor3 = _0xC(45, 45, 65)
-_0xTBH.TextColor3 = _0xC(255, 255, 255)
-_0xTBH.PlaceholderText = _0xS("K","e","t","i","k"," ","t","e","k","s"," ","d","i"," ","a","t","a","s"," ","j","u","d","u","l",".",".",".")
-_0xTBH.Text = _0xS("")
-_0xTBH.TextSize = 13
-_0xTBH.Font = Enum.Font.Gotham
-_0xTBH.ClearTextOnFocus = false
-_0xTBH.LayoutOrder = 5
-_0xTBH.Parent = _0xSF
+local _0x08cb9_85 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,116,125} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x08cb9_85._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 35)
+_0x08cb9_85._0x7d891_30 = Color3._0x311b5_31(45, 45, 65)
+_0x08cb9_85._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0x08cb9_85._0x61abc_73 = (function() local _0xba619_3={80,106,121,110,112,37,121,106,112,120,37,105,110,37,102,121,102,120,37,111,122,105,122,113,51,51,51} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x08cb9_85._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x08cb9_85._0xca290_48 = 13
+_0x08cb9_85._0x96e6f_49 = Enum._0x96e6f_49._0xce7cd_74
+_0x08cb9_85._0x8f4a8_75 = false
+_0x08cb9_85._0xdb614_66 = 5
+_0x08cb9_85._0x5ec10_26 = _0x55b2e_52
 
-local _0xTBHC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xTBHC.CornerRadius = _0xU(0, 8)
-_0xTBHC.Parent = _0xTBH
+_0x053b7_86 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xd786f_87._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+_0xd786f_87._0x5ec10_26 = _0x08cb9_85
 
-local _0xSHB = _0xI(_0xS("T","e","x","t","B","u","t","t","o","n"))
-_0xSHB.Size = _0xU(1, 0, 0, 32)
-_0xSHB.BackgroundColor3 = _0xC(0, 200, 100)
-_0xSHB.TextColor3 = _0xC(255, 255, 255)
-_0xSHB.Text = _0xS("M","U","L","A","I"," ","O","V","E","R","H","E","A","D")
-_0xSHB.TextSize = 13
-_0xSHB.Font = Enum.Font.GothamBold
-_0xSHB.LayoutOrder = 6
-_0xSHB.Parent = _0xSF
+local _0x06a9b_88 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x06a9b_88._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 32)
+_0x06a9b_88._0x7d891_30 = Color3._0x311b5_31(0, 200, 100)
+_0x06a9b_88._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+_0x06a9b_88._0xbf1f2_46 = (function() local _0xba619_3={82,90,81,70,78,37,84,91,74,87,77,74,70,73} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x06a9b_88._0xca290_48 = 13
+_0x06a9b_88._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+_0x06a9b_88._0xdb614_66 = 6
+_0x06a9b_88._0x5ec10_26 = _0x55b2e_52
 
-local _0xSHBC = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-_0xSHBC.CornerRadius = _0xU(0, 8)
-_0xSHBC.Parent = _0xSHB
+local _0xf3e59_89 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xf3e59_89._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+_0xf3e59_89._0x5ec10_26 = _0x06a9b_88
 
-local _0xGC = _0xI(_0xS("F","r","a","m","e"))
-_0xGC.Size = _0xU(1, 0, 0, 0)
-_0xGC.BackgroundTransparency = 1
-_0xGC.AutomaticSize = Enum.AutomaticSize.Y
-_0xGC.LayoutOrder = 7
-_0xGC.Parent = _0xSF
+_0xe3cd0_90 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xe3cd0_90._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 0)
+_0xe3cd0_90._0xe8c7c_45 = 1
+_0xe3cd0_90._0x34ff9_57 = Enum._0x34ff9_57._0x96835_58
+_0xe3cd0_90._0xdb614_66 = 7
+_0xe3cd0_90._0x5ec10_26 = _0x55b2e_52
 
-local _0xGL = _0xI(_0xS("U","I","G","r","i","d","L","a","y","o","u","t"))
-_0xGL.CellSize = _0xU(0.48, 0, 0, 35)
-_0xGL.CellPadding = _0xU(0.04, 0, 0, 8)
-_0xGL.SortOrder = Enum.SortOrder.LayoutOrder
-_0xGL.Parent = _0xGC
+_0xcd950_91 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,76,119,110,105,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xcd950_91._0x3d01d_92 = UDim2._0x9a232_23(0.48, 0, 0, 35)
+_0xcd950_91._0x10216_93 = UDim2._0x9a232_23(0.04, 0, 0, 8)
+_0xcd950_91._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+_0xcd950_91._0x5ec10_26 = _0xe3cd0_90
 
-local _0xCFB = function(_0xn, _0xw, _0xo)
-    local _0xb = _0xI(_0xS("T","e","x","t","B","u","t","t","o","n"))
-    _0xb.BackgroundColor3 = _0xw
-    _0xb.TextColor3 = _0xC(255, 255, 255)
-    _0xb.Text = _0xn
-    _0xb.TextSize = 11
-    _0xb.Font = Enum.Font.GothamBold
-    _0xb.LayoutOrder = _0xo
-    _0xb.Parent = _0xGC
-    local _0xc = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-    _0xc.CornerRadius = _0xU(0, 8)
-    _0xc.Parent = _0xb
-    return _0xb
-end
+_0x9b0c4_94 _0xd16a4_1 _0x6f039_95(_0x1c814_96, _0x6fa8c_97, _0x2d605_98)
+    local _0x3d99e_99 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x3d99e_99._0x7d891_30 = _0x6fa8c_97
+    _0x3d99e_99._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0x3d99e_99._0xbf1f2_46 = _0x1c814_96
+    _0x3d99e_99._0xca290_48 = 11
+    _0x3d99e_99._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0x3d99e_99._0xdb614_66 = _0x2d605_98
+    _0x3d99e_99._0x5ec10_26 = _0xe3cd0_90
+    
+    _0xd16a4_1 _0xdbf83_100 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xdbf83_100._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+    _0xdbf83_100._0x5ec10_26 = _0x3d99e_99
+    _0x24270_101 _0xd0f17_102
+_0x9faf7_21
 
-local _0xBA = _0xCFB(_0xS("["," ","N","O","T","I","F","I","K","A","S","I"," ","A","D","M","I","N"," ","]"), _0xC(200, 50, 50), 1)
-local _0xBL = _0xCFB(_0xS("["," ","T","E","L","U","R"," ","K","E","B","E","R","U","N","T","U","N","G","A","N"," ","]"), _0xC(255, 170, 0), 2)
-local _0xBC = _0xCFB(_0xS("["," ","M","E","G","A"," ","L","U","C","K","Y"," ","F","I","S","H"," ","]"), _0xC(138, 43, 226), 3)
-local _0xBO = _0xCFB(_0xS("["," ","P","E","M","I","L","I","K"," ","G","A","M","E"," ","]"), _0xC(46, 139, 87), 4)
-local _0xBSU = _0xCFB(_0xS("["," ","S","P","A","W","N"," ","U","N","I","C","O","R","N"," ","]"), _0xC(199, 21, 133), 5)
-local _0xBSK = _0xCFB(_0xS("["," ","S","P","A","W","N"," ","K","I","T","S","U","N","E"," ","]"), _0xC(255, 105, 180), 6)
-local _0xBSN = _0xCFB(_0xS("["," ","S","P","A","W","N"," ","N","I","G","F","L","A","M","E"," ","]"), _0xC(180, 0, 0), 7)
-local _0xBSA = _0xCFB(_0xS("["," ","S","P","A","W","N"," ","A","R","C","H","A","N","G","E","L"," ","]"), _0xC(255, 127, 127), 8)
-local _0xBSS = _0xCFB(_0xS("["," ","S","P","A","W","N"," ","S","K","Y","W","H","A","L","E"," ","]"), _0xC(147, 112, 219), 9)
-local _0xBSW = _0xCFB(_0xS("["," ","S","P","A","W","N"," ","W","O","R","L","D","B","U","R","N","E","R"," ","]"), _0xC(220, 20, 100), 10)
+local _0x295b2_103 = _0x6f039_95((function() local _0xba619_3={96,37,83,84,89,78,75,78,80,70,88,78,37,70,73,82,78,83,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(200, 50, 50), 1)
+local _0x665a0_104 = _0x6f039_95((function() local _0xba619_3={96,37,89,74,81,90,87,37,80,74,71,74,87,90,83,89,90,83,76,70,83,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 170, 0), 2)
+local _0xaac4d_105 = _0x6f039_95((function() local _0xba619_3={96,37,82,74,76,70,37,81,90,72,80,94,37,75,78,88,77,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(138, 43, 226), 3)
+local _0x04579_106 = _0x6f039_95((function() local _0xba619_3={96,37,85,74,82,78,81,78,80,37,76,70,82,74,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(46, 139, 87), 4)
+local _0x9fefa_107 = _0x6f039_95((function() local _0xba619_3={96,37,88,85,70,92,83,37,90,83,78,72,84,87,83,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(199, 21, 133), 5)
+local _0x3209b_108 = _0x6f039_95((function() local _0xba619_3={96,37,88,85,70,92,83,37,80,78,89,88,90,83,74,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 105, 180), 6)
+local _0xb6251_109 = _0x6f039_95((function() local _0xba619_3={96,37,88,85,70,92,83,37,83,78,76,75,81,70,82,74,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(180, 0, 0), 7)
+local _0x79698_110 = _0x6f039_95((function() local _0xba619_3={96,37,88,85,70,92,83,37,70,87,72,77,70,83,76,74,81,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 127, 127), 8)
+local _0x5e88f_111 = _0x6f039_95((function() local _0xba619_3={96,37,88,85,70,92,83,37,88,80,94,92,77,70,81,74,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(147, 112, 219), 9)
+local _0x2a742_112 = _0x6f039_95((function() local _0xba619_3={96,37,88,85,70,92,83,37,92,84,87,81,73,71,90,87,83,74,87,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(220, 20, 100), 10)
 
-local _0xCFS = function(_0xn, _0xw, _0xo)
-    local _0xb = _0xI(_0xS("T","e","x","t","B","u","t","t","o","n"))
-    _0xb.Size = _0xU(1, 0, 0, 32)
-    _0xb.BackgroundColor3 = _0xw
-    _0xb.TextColor3 = _0xC(255, 255, 255)
-    _0xb.Text = _0xn
-    _0xb.TextSize = 12
-    _0xb.Font = Enum.Font.GothamBold
-    _0xb.LayoutOrder = _0xo
-    _0xb.Parent = _0xSF
-    local _0xc = _0xI(_0xS("U","I","C","o","r","n","e","r"))
-    _0xc.CornerRadius = _0xU(0, 8)
-    _0xc.Parent = _0xb
-    return _0xb
-end
+_0x9b0c4_94 _0xd16a4_1 _0xfca72_113(_0x1c814_96, _0x6fa8c_97, _0x2d605_98)
+    local _0x3d99e_99 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xdcf13_40 _0x24270_101 = UDim2._0x1751a_42(1, 0, 0, 32)
+    _0x3d99e_99._0x7d891_30 = _0x6fa8c_97
+    _0x3d99e_99._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0x3d99e_99._0xbf1f2_46 = _0x1c814_96
+    _0x3d99e_99._0xca290_48 = 12
+    _0x3d99e_99._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0x3d99e_99._0xdb614_66 = _0x2d605_98
+    _0x3d99e_99._0x5ec10_26 = _0x55b2e_52
+    
+    _0xd16a4_1 _0xdbf83_100 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xdbf83_100._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+    _0xdbf83_100._0x5ec10_26 = _0x3d99e_99
+    _0x24270_101 _0xd0f17_102
+_0x9faf7_21
 
-local _0xCS = _0xCFS(_0xS("["," ","S","K","Y"," ","C","H","A","O","S"," ","]"), _0xC(0, 220, 140), 8)
-local _0xPS = _0xCFS(_0xS("["," ","S","T","A","T","U","S"," ","P","E","M","A","I","N"," ","]"), _0xC(0, 150, 255), 9)
-local _0xEP = _0xCFS(_0xS("["," ","P","R","E","D","I","K","S","I"," ","T","E","L","U","R"," ","]"), _0xC(255, 100, 0), 10)
+local _0x8a627_114 = _0xfca72_113((function() local _0xba619_3={96,37,88,80,94,37,72,77,70,84,88,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(0, 220, 140), 8)
+local _0xb110c_115 = _0xfca72_113((function() local _0xba619_3={96,37,88,89,70,89,90,88,37,85,74,82,70,78,83,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(0, 150, 255), 9)
+local _0x4ffb4_116 = _0xfca72_113((function() local _0xba619_3={96,37,85,87,74,73,78,80,88,78,37,89,74,81,90,87,37,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 100, 0), 10)
 
-_0xSB.MouseButton1Click:Connect(function()
-    local _0xt = _0xTB.Text
-    if _0xt == _0xS("") then _0xt = _0xS("s","e","m","e","n","t","a","r","a"," ","i","t","u"," ","b","e","r","s","i","a","p","l","a","h"," ","u","n","t","u","k"," ","b","e","b","e","r","a","p","a"," ","t","e","l","u","r") end
-    _0xTB.Text = _0xS("")
-end)
+local _0xc2387_117 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0xc2387_117._0xa668d_28 = UDim2._0x9a232_23(0, 700, 0, 450)
+_0xc2387_117._0x02310_29 = UDim2._0x9a232_23(0.5, 0, 0.02, 0)
+_0xc2387_117._0xa0ca6_118 = Vector2._0x9a232_23(0.5, 0)
+_0xc2387_117._0xe8c7c_45 = 1
+_0xc2387_117._0x5ec10_26 = _0xe9b60_22
 
-_0xSSB.MouseButton1Click:Connect(function()
-    local _0xt = _0xTBS.Text
-    if _0xt == _0xS("") then _0xt = _0xS("P","E","N","G","U","M","U","M","A","N"," ","S","E","R","V","E","R"," ","U","T","A","M","A","!") end
-    _0xTBS.Text = _0xS("")
-end)
+_0x7dd31_119 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x7dd31_119._0x0c595_120 = Enum._0x0c595_120._0x62b11_121
+_0x7dd31_119._0x94347_68 = Enum._0x94347_68._0x75daf_69
+_0x7dd31_119._0x7c520_122 = Enum._0x7c520_122._0xea68d_123
+_0x7dd31_119._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+_0x7dd31_119._0xf5e4e_67 = UDim._0x9a232_23(0, 6)
+_0x7dd31_119._0x5ec10_26 = _0xc2387_117
 
-_0xSHB.MouseButton1Click:Connect(function()
-    local _0xt = _0xTBH.Text
-    if _0xt == _0xS("") then _0xt = _0xS("L","i","p","z","y"," ","H","u","b") end
-    _0xTBH.Text = _0xS("")
+_0xd16a4_1 _0x66b2e_124 = 0
+
+_0x9b0c4_94 _0xd16a4_1 _0xefdb4_125()
+    pcall(function())
+        _0x06938_126 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={88,122,102,119,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x2a028_127._0xac686_128 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,56,53,53,54,60,53,62,61,60,60,55,58,60,55} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x2a028_127._0x023f9_129 = 1
+        _0x2a028_127._0x5ec10_26 = _0xda344_130
+        _0x2a028_127:_0xe3915_131()
+        game:_0x63c0f_2((function() local _0xba619_3={73,106,103,119,110,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()):_0x61596_132(_0x2a028_127, 5)
+    _0x9faf7_21)
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0xde4fd_133()
+    _0xa4fd0_134 _0xd16a4_1, _0xecb87_135 = pcall(_0x9b0c4_94())
+        return Players:_0x3b3a1_136(_0xacab0_16._0x57725_137, Enum._0x16333_138._0x0960c_139, Enum._0xb32d0_140._0xae5a8_141)
+    _0x9faf7_21)
+    _0xa79f9_15 _0x164ee_142 _0x386d0_18
+        _0x5b3bd_143 _0xecb87_135
+    _0x9faf7_21
+    _0xd0f17_102 (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0xbe752_144(_0xf3ec4_145, _0x932dc_146, _0x826ce_147, _0xdcdd4_148, _0x4f2a7_149)
+    _0x66b2e_124 = _0x66b2e_124 + 1
+    _0x35646_150 _0xb9472_151 _0xd16a4_1 = _0xb9472_151 _0x74f39_152
+
+    _0xa79f9_15 _0x826ce_147 _0x386d0_18
+        _0x17cde_153 = _0xde4fd_133()
+        _0xf3ec4_145 = _0xacab0_16._0xc2aea_154
+    _0x9faf7_21
+
+    _0xb1b3e_155 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xb1b3e_155._0xa668d_28 = UDim2._0x9a232_23(0, 0, 0, 40)
+    _0xb1b3e_155._0xe8c7c_45 = 1
+    _0xb1b3e_155._0xa0ca6_118 = Vector2._0x9a232_23(0.5, 0.5)
+    _0xb1b3e_155._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0xb1b3e_155._0x6a92f_35 = true
+    _0xb1b3e_155._0xdb614_66 = _0x66b2e_124
+    _0xb1b3e_155._0x5ec10_26 = _0xc2387_117
+
+    local _0xb9f9f_157 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xb9f9f_157._0x0c595_120 = Enum._0x0c595_120._0x53d5c_158
+    _0xb9f9f_157._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0xb9f9f_157._0x7c520_122 = Enum._0x7c520_122._0x75daf_69
+    _0xb9f9f_157._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0xb9f9f_157._0xf5e4e_67 = UDim._0x9a232_23(0, 6)
+    _0xb9f9f_157._0x5ec10_26 = _0xb1b3e_155
+
+    _0xa79f9_15 _0x826ce_147 _0xb93f0_159 _0x17cde_153 _0xb93f0_159 _0x17cde_153 ~= " _0x386d0_18
+        _0xdc3f2_160 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xdc3f2_160._0x83160_24 = (function() local _0xba619_3={70,123,102,121,102,119,78,114,108} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xdc3f2_160._0xa668d_28 = UDim2._0x9a232_23(0, 26, 0, 26)
+        _0xdc3f2_160._0xe8c7c_45 = 1
+        _0xdc3f2_160._0xf1a17_161 = _0x17cde_153
+        _0xdc3f2_160._0xdb614_66 = 0
+        _0xdc3f2_160._0x5ec10_26 = _0xb1b3e_155
+
+        _0xba4b2_162 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xba4b2_162._0xa59e8_37 = UDim._0x9a232_23(0, 6)
+        _0xba4b2_162._0x5ec10_26 = _0xdc3f2_160
+    _0x3bb2d_163
+        _0xd06ce_164 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x59dcc_165._0x83160_24 = (function() local _0xba619_3={88,117,102,104,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x59dcc_165._0xa668d_28 = UDim2._0x9a232_23(0, 26, 0, 26)
+        _0x59dcc_165._0xe8c7c_45 = 1
+        _0x59dcc_165._0xdb614_66 = 0
+        _0x59dcc_165._0x5ec10_26 = _0xb1b3e_155
+    _0x9faf7_21
+
+    _0xf96d3_38 _0x1c814_96 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={81,102,103,106,113,37,89,106,112,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x93136_166._0x83160_24 = (function() local _0xba619_3={81,102,103,106,113,37,83,102,114,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x93136_166._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0x93136_166._0xe8c7c_45 = 1
+    _0x93136_166._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x93136_166._0xbf1f2_46 = _0xf3ec4_145
+    _0x93136_166._0x84088_47 = _0x4f2a7_149 _0xb93f0_159 Color3._0x311b5_31(255, 40, 40) _0x53361_167 Color3._0x311b5_31(0, 162, 255)
+    _0x93136_166._0xca290_48 = 20
+    _0x93136_166._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+    _0x93136_166._0xdb614_66 = 1
+    _0x93136_166._0x5ec10_26 = _0xb1b3e_155
+
+    local _0xc8523_169 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xc8523_169._0x4597e_170 = 2.5
+    _0xc8523_169._0x9aa36_171 = Color3._0x311b5_31(0, 0, 0)
+    _0xc8523_169._0x5ec10_26 = _0x93136_166
+
+    _0xa79f9_15 _0x4f2a7_149 _0x386d0_18
+        _0x788ee_172 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,76,119,102,105,110,106,115,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x6a7da_173._0x9aa36_171 = _0x1ce53_174._0x9a232_23({
+            _0xc9109_175._0x9a232_23(0, Color3._0x311b5_31(255, 80, 80)),
+            _0xc9109_175._0x9a232_23(0.3, Color3._0x311b5_31(255, 255, 255)),
+            _0xc9109_175._0x9a232_23(0.5, Color3._0x311b5_31(255, 220, 220)),
+            _0xc9109_175._0x9a232_23(0.7, Color3._0x311b5_31(255, 255, 255)),
+            _0xc9109_175._0x9a232_23(1, Color3._0x311b5_31(255, 80, 80))
+        })
+        _0x6a7da_173._0x15271_176 = 25
+        _0x6a7da_173._0x5ec10_26 = _0x93136_166
+
+        task.spawn(function())
+            _0xff497_177 _0xd16a4_1
+            _0x7c554_178 = _0xb1fca_11._0xac4a2_179:Connect(function()
+                _0xa79f9_15 _0x0d286_180 _0x93136_166 _0x53361_167 _0x0d286_180 _0x93136_166._0x5ec10_26 _0x386d0_18
+                    _0xa79f9_15 _0x7844f_181 _0x386d0_18 _0x7844f_181:_0x09565_182 _0x36996_183()
+                    _0xd0f17_102
+                _0x9faf7_21
+                _0x6a7da_173._0xf3958_184 = Vector2._0x9a232_23((tick() * 2.2) % 3 - 1.5, 0)
+            _0x9faf7_21)
+        _0x9faf7_21)
+    _0x9faf7_21
+
+    _0xfa651_185 _0x068a9_186 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={81,102,103,106,113,37,76,102,114,103,102,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x001c4_187._0x83160_24 = (function() local _0xba619_3={91,106,119,110,107,126,78,114,102,108,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x001c4_187._0xa668d_28 = UDim2._0x9a232_23(0, 18, 0, 18)
+    _0x001c4_187._0xe8c7c_45 = 1
+    _0x001c4_187._0xf1a17_161 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,61,53,55,62,53,60,54,61,58,61,57,60,57,61} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x001c4_187._0xdb614_66 = 2
+    _0x001c4_187._0x5ec10_26 = _0xb1b3e_155
+
+    local _0xac09b_188 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xac09b_188._0x83160_24 = (function() local _0xba619_3={81,102,103,106,113,37,85,106,120,102,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xac09b_188._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0xac09b_188._0xe8c7c_45 = 1
+    _0xac09b_188._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0xac09b_188._0xbf1f2_46 = (function() local _0xba619_3={63,37} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0x932dc_146
+    _0xac09b_188._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0xac09b_188._0xca290_48 = 20
+    _0xac09b_188._0x96e6f_49 = Enum._0x96e6f_49._0xaaa57_189
+    _0xac09b_188._0xdb614_66 = 3
+    _0xac09b_188._0x5ec10_26 = _0xb1b3e_155
+
+    local _0xe25ad_190 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xe25ad_190._0x4597e_170 = 2
+    _0xe25ad_190._0x9aa36_171 = Color3._0x311b5_31(0, 0, 0)
+    _0xe25ad_190._0x5ec10_26 = _0xac09b_188
+
+    _0xefdb4_125()
+
+    _0xb1b3e_155._0xa668d_28 = UDim2._0x9a232_23(0, 0, 0, 0)
+    local _0x489a6_191 = _0x779ff_192:_0x32576_193(
+        _0xb1b3e_155,
+        TweenInfo._0x9a232_23(0.25, Enum._0x24768_194._0x60942_195, Enum._0xef3ec_196._0xece2a_197, 0, false, 0),
+        {_0xdcf13_40 = UDim2._0x1751a_42(0, 500, 0, 42)}
+    )
+    _0x489a6_191:_0xe3915_131()
+    
+    _0x489a6_191._0x50340_198:Connect(function()
+        local _0x2b8fb_199 = _0x779ff_192:_0x32576_193(
+            _0xb1b3e_155,
+            TweenInfo._0x9a232_23(0.1, Enum._0x24768_194._0x87fa5_200, Enum._0xef3ec_196._0xece2a_197),
+            {_0xdcf13_40 = UDim2._0x1751a_42(0, 460, 0, 36)}
+        )
+        _0x2b8fb_199:_0xe3915_131()
+    _0x9faf7_21)
+
+    task.delay(4, function())
+        _0xa79f9_15 _0xb1b3e_155 _0xb93f0_159 _0xb1b3e_155._0x5ec10_26 _0x386d0_18
+            local _0x33052_201 = _0x779ff_192:_0x32576_193(
+                _0xb1b3e_155,
+                TweenInfo._0x9a232_23(0.2, Enum._0x24768_194._0x87fa5_200, Enum._0xef3ec_196._0xef50e_202),
+                {_0xdcf13_40 = UDim2._0x1751a_42(0, 0, 0, 0)}
+            )
+            _0x33052_201:_0xe3915_131()
+            _0x33052_201._0x50340_198:Connect(function())
+                _0xb1b3e_155:_0xdf955_20()
+            _0x9faf7_21)
+        _0x9faf7_21
+    _0x9faf7_21)
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0x541fc_203(_0x082dd_204, _0xd3170_205, _0xe77d7_206, _0x13671_207)
+    _0xefdb4_125()
+    _0x66b2e_124 = _0x66b2e_124 + 1
+
+    _0xb1b3e_155 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xb1b3e_155._0x83160_24 = (function() local _0xba619_3={72,122,120,121,116,114,88,117,102,124,115,83,116,121,110,107,87,116,124} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xb1b3e_155._0xa668d_28 = UDim2._0x9a232_23(0, 0, 0, 0)
+    _0xb1b3e_155._0xe8c7c_45 = 1
+    _0xb1b3e_155._0xa0ca6_118 = Vector2._0x9a232_23(0.5, 0.5)
+    _0xb1b3e_155._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0xb1b3e_155._0x6a92f_35 = true
+    _0xb1b3e_155._0xdb614_66 = _0x66b2e_124
+    _0xb1b3e_155._0x5ec10_26 = _0xc2387_117
+
+    local _0x96b6a_208 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x96b6a_208._0x0c595_120 = Enum._0x0c595_120._0x62b11_121
+    _0x96b6a_208._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0x96b6a_208._0x7c520_122 = Enum._0x7c520_122._0x75daf_69
+    _0x96b6a_208._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0x96b6a_208._0xf5e4e_67 = UDim._0x9a232_23(0, -4)
+    _0x96b6a_208._0x5ec10_26 = _0xb1b3e_155
+
+    _0x5c47b_209 _0xde822_210 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x98235_211._0xa668d_28 = UDim2._0x9a232_23(0, 0, 0, 28)
+    _0x98235_211._0xe8c7c_45 = 1
+    _0x98235_211._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x98235_211._0xdb614_66 = 1
+    _0x98235_211._0x5ec10_26 = _0xb1b3e_155
+
+    local _0xa3705_212 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xa3705_212._0x0c595_120 = Enum._0x0c595_120._0x53d5c_158
+    _0xa3705_212._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0xa3705_212._0x7c520_122 = Enum._0x7c520_122._0x75daf_69
+    _0xa3705_212._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0xa3705_212._0xf5e4e_67 = UDim._0x9a232_23(0, 6)
+    _0xa3705_212._0x5ec10_26 = _0x49241_213
+
+    _0x7a849_214 _0x574c6_215 _0xd16a4_1 = _0xde4fd_133()
+    _0xa79f9_15 _0x6e15c_216 ~= (function() local _0xba619_3={37} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0x386d0_18
+        _0xdc3f2_160 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xdc3f2_160._0x83160_24 = (function() local _0xba619_3={70,123,102,121,102,119,78,114,108} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xdc3f2_160._0xa668d_28 = UDim2._0x9a232_23(0, 26, 0, 26)
+        _0xdc3f2_160._0xe8c7c_45 = 1
+        _0xdc3f2_160._0xf1a17_161 = _0x6e15c_216
+        _0xdc3f2_160._0xdb614_66 = 0
+        _0xdc3f2_160._0x5ec10_26 = _0x49241_213
+
+        _0xba4b2_162 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xba4b2_162._0xa59e8_37 = UDim._0x9a232_23(0, 6)
+        _0xba4b2_162._0x5ec10_26 = _0xdc3f2_160
+    _0x9faf7_21
+
+    local _0xe8f54_217 = _0xacab0_16._0xc2aea_154
+
+    _0x1c814_96 _0xe4f2c_218 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xc9756_219._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0xc9756_219._0xe8c7c_45 = 1
+    _0xc9756_219._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0xc9756_219._0xbf1f2_46 = _0xe8f54_217
+    _0xd5d27_220._0xc66de_221 = _0x66861_222._0xc74e5_223(0, 162, 255)
+    _0xc9756_219._0xca290_48 = 17
+    _0xc9756_219._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+    _0xc9756_219._0xdb614_66 = 1
+    _0xc9756_219._0x5ec10_26 = _0x49241_213
+
+    _0xd16a4_1 _0x70014_224 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x70014_224._0x380c5_225 = 2
+    _0x70014_224._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0x70014_224._0x5ec10_26 = _0xc9756_219
+
+    _0x34412_227 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={81,102,103,106,113,37,76,102,114,103,102,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x34412_227._0xa668d_28 = UDim2._0x9a232_23(0, 15, 0, 15)
+    _0x34412_227._0xe8c7c_45 = 1
+    _0x34412_227._0xf1a17_161 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,61,53,55,62,53,60,54,61,58,61,57,60,57,61} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x34412_227._0xdb614_66 = 2
+    _0x34412_227._0x5ec10_26 = _0x49241_213
+
+    local _0xc4852_228 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xc4852_228._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0xc4852_228._0xe8c7c_45 = 1
+    _0xc4852_228._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0xc4852_228._0xbf1f2_46 = (function() local _0xba619_3={37,114,106,114,122,115,104,122,113,112,102,115,37} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xc4852_228._0x84088_47 = _0x66861_222._0x311b5_31(255, 255, 255)
+    _0xc4852_228._0xca290_48 = 16
+    _0xc4852_228._0x96e6f_49 = Enum._0x96e6f_49._0xaaa57_189
+    _0xc4852_228._0xdb614_66 = 3
+    _0xc4852_228._0x5ec10_26 = _0x49241_213
+
+    _0xd16a4_1 _0x62f11_229 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x62f11_229._0x380c5_225 = 1.8
+    _0x62f11_229._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0x62f11_229._0x5ec10_26 = _0xc4852_228
+
+    _0xd16a4_1 _0xdca08_230 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xdca08_230._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0xdca08_230._0xe8c7c_45 = 1
+    _0xdca08_230._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0xdca08_230._0xbf1f2_46 = (function() local _0xba619_3={89,74,81,90,87,37,81,70,83,76,80,70} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xdca08_230._0x84088_47 = Color3._0x311b5_31(255, 170, 0)
+    _0xdca08_230._0xca290_48 = 17
+    _0xdca08_230._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+    _0xdca08_230._0xdb614_66 = 4
+    _0xdca08_230._0x5ec10_26 = _0x49241_213
+
+    _0xd16a4_1 _0xdcdea_231 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xdcdea_231._0x380c5_225 = 2
+    _0xdcdea_231._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0xdcdea_231._0x5ec10_26 = _0xdca08_230
+
+    local _0xd7188_232 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x4976a_233._0xdcf13_40 = UDim2._0x1751a_42(0, 0, 1, 0)
+    _0x54f3e_234._0xe78c6_235 = 1
+    _0xd7188_232._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x54f3e_234._0xc362b_236 = (function() local _0xba619_3={38} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xd7188_232._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0xd7188_232._0xca290_48 = 16
+    _0xd7188_232._0x96e6f_49 = Enum._0x96e6f_49._0xaaa57_189
+    _0x54f3e_234._0xdb614_66 = 5
+    _0x54f3e_234._0xbceac_237 = _0x49241_213
+
+    _0xd16a4_1 _0x03da4_238 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x03da4_238._0x380c5_225 = 1.8
+    _0x03da4_238._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0x03da4_238._0x5ec10_26 = _0x54f3e_234
+
+    _0x5c47b_209 _0x92d45_239 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x8453f_240._0xdcf13_40 = UDim2._0x1751a_42(0, 0, 0, 28)
+    _0x8453f_240._0xea75e_44 = UDim2._0x1751a_42(0, 0, 0, -3)
+    _0x474fe_241._0xe8c7c_45 = 1
+    _0x474fe_241._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x474fe_241._0xdb614_66 = 2
+    _0x474fe_241._0x5ec10_26 = _0xb1b3e_155
+
+    local _0x98687_242 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x98687_242._0x0c595_120 = Enum._0x0c595_120._0x53d5c_158
+    _0x98687_242._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0x98687_242._0x7c520_122 = Enum._0x7c520_122._0x75daf_69
+    _0x98687_242._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0x98687_242._0xf5e4e_67 = UDim._0x9a232_23(0, 5)
+    _0x98687_242._0x5ec10_26 = _0x8453f_240
+
+    _0xd06ce_164 _0x92d45_239 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x195d2_243._0xa668d_28 = UDim2._0x9a232_23(0, 26, 0, 26)
+    _0x195d2_243._0xe8c7c_45 = 1
+    _0x195d2_243._0xdb614_66 = 0
+    _0x195d2_243._0x5ec10_26 = _0x8453f_240
+
+    _0xd16a4_1 _0x3a363_244 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x3a363_244._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0x3a363_244._0xe8c7c_45 = 1
+    _0x3a363_244._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x3a363_244._0xbf1f2_46 = (function() local _0xba619_3={70} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x3a363_244._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0x3a363_244._0xca290_48 = 17
+    _0x3a363_244._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+    _0x3a363_244._0xdb614_66 = 1
+    _0x3a363_244._0x5ec10_26 = _0x8453f_240
+
+    _0xb24ea_245 _0xd16a4_1 = Instance._0x1751a_42((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xb24ea_245._0x380c5_225 = 2
+    _0xb24ea_245._0x9aa36_171 = Color3._0x311b5_31(0, 0, 0)
+    _0xb24ea_245._0x5ec10_26 = _0x3a363_244
+
+    _0x67a0c_246 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x67a0c_246._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0x67a0c_246._0xe8c7c_45 = 1
+    _0x67a0c_246._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x67a0c_246._0xbf1f2_46 = (function() local _0xba619_3={37,78,113,102,109,110,37} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0x082dd_204
+    _0x67a0c_246._0x84088_47 = _0xe77d7_206
+    _0x67a0c_246._0xca290_48 = 17
+    _0x67a0c_246._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+    _0x67a0c_246._0xdb614_66 = 2
+    _0x67a0c_246._0x5ec10_26 = _0x8453f_240
+
+    _0xd16a4_1 _0xde9a1_247 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xde9a1_247._0x380c5_225 = 2
+    _0xde9a1_247._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0xde9a1_247._0x5ec10_26 = _0x67a0c_246
+
+    local _0x26c2b_248 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x26c2b_248._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0x26c2b_248._0xe8c7c_45 = 1
+    _0x26c2b_248._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x26c2b_248._0xbf1f2_46 = (function() local _0xba619_3={105,110,109,102,120,110,113,112,102,115,37,105,110} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x26c2b_248._0x84088_47 = _0x66861_222._0x311b5_31(255, 255, 255)
+    _0x26c2b_248._0xca290_48 = 16
+    _0x26c2b_248._0x96e6f_49 = Enum._0x96e6f_49._0xaaa57_189
+    _0x26c2b_248._0xdb614_66 = 3
+    _0x26c2b_248._0x5ec10_26 = _0x474fe_241 -- _0x9840b_249: _0xb41d5_250 _0x224be_251 _0x26c2b_248 _0xb2422_252 _0x8453f_240
+
+    _0xd16a4_1 _0xb1476_253 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xb1476_253._0x380c5_225 = 1.8
+    _0xb1476_253._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0xb1476_253._0x5ec10_26 = _0x26c2b_248
+
+    _0x3c738_254 _0xd16a4_1 _0x089e9_255 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x2c595_256._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0x2c595_256._0xe8c7c_45 = 1
+    _0x2c595_256._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x2c595_256._0xbf1f2_46 = _0xd3170_205
+    _0x2c595_256._0x84088_47 = _0x13671_207
+    _0x2c595_256._0xca290_48 = 17
+    _0x2c595_256._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+    _0x2c595_256._0xdb614_66 = 4
+    _0x2c595_256._0x5ec10_26 = _0x8453f_240
+
+    _0xd16a4_1 _0x397ca_257 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x397ca_257._0x380c5_225 = 2
+    _0x397ca_257._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0x397ca_257._0x5ec10_26 = _0x2c595_256
+
+    local _0xa8e80_258 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x7e7b0_259._0xdcf13_40 = UDim2._0x1751a_42(0, 0, 1, 0)
+    _0x4db0a_260._0xe78c6_235 = 1
+    _0xa8e80_258._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x4db0a_260._0xc362b_236 = (function() local _0xba619_3={38} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xa8e80_258._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0xa8e80_258._0xca290_48 = 16
+    _0xa8e80_258._0x96e6f_49 = Enum._0x96e6f_49._0xaaa57_189
+    _0x4db0a_260._0xdb614_66 = 5
+    _0x4db0a_260._0xbceac_237 = _0x8453f_240
+
+    _0xd16a4_1 _0x35390_261 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x35390_261._0x380c5_225 = 1.8
+    _0x35390_261._0xe99c1_226 = _0x66861_222._0xc74e5_223(0, 0, 0)
+    _0x35390_261._0x5ec10_26 = _0x4db0a_260
+
+    local _0x489a6_191 = _0x779ff_192:_0x32576_193(
+        _0xb1b3e_155,
+        TweenInfo._0x9a232_23(0.3, Enum._0x24768_194._0x60942_195, Enum._0xef3ec_196._0xece2a_197, 0, false, 0),
+        {_0xdcf13_40 = UDim2._0x1751a_42(0, 480, 0, 56)}
+    )
+    _0x489a6_191:_0xe3915_131()
+
+    task.delay(4, function())
+        _0xa79f9_15 _0xb1b3e_155 _0xb93f0_159 _0xb1b3e_155._0x5ec10_26 _0x386d0_18
+            local _0x33052_201 = _0x779ff_192:_0x32576_193(
+                _0xb1b3e_155,
+                TweenInfo._0x9a232_23(0.2, Enum._0x24768_194._0x87fa5_200, Enum._0xef3ec_196._0xef50e_202),
+                {_0xdcf13_40 = UDim2._0x1751a_42(0, 0, 0, 0)}
+            )
+            _0x33052_201:_0xe3915_131()
+            _0x33052_201._0x50340_198:Connect(function())
+                _0xb1b3e_155:_0xdf955_20()
+            _0x9faf7_21)
+        _0x9faf7_21
+    _0x9faf7_21)
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0x2361d_262()
+    _0x541fc_203((function() local _0xba619_3={90,115,110,104,116,119,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={72,116,120,114,110,104,37,66,126} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 255, 0), Color3._0x311b5_31(255, 0, 127))
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0xd9fbd_263()
+    _0x541fc_203((function() local _0xba619_3={80,110,121,120,122,115,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={72,109,106,119,119,126,37,71,113,116,120,120,116,114,65,61} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 255, 0), Color3._0x311b5_31(255, 255, 0))
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0x4322a_264()
+    _0x541fc_203((function() local _0xba619_3={83,110,108,107,113,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={89,110,121,102,115,37,89,106,114,117,113,106,67,155} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 255, 0), Color3._0x311b5_31(255, 0, 0))
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0x10de9_265()
+    _0x541fc_203((function() local _0xba619_3={70,119,104,109,70,115,108,108,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={70,115,108,106,113,120,37,43,37,73,106,114,116,115,120,52,20} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 255, 0), Color3._0x311b5_31(255, 140, 160))
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0xa59ed_266()
+    _0x541fc_203((function() local _0xba619_3={87,116,126,102,113,37,88,112,126,124,109,102,113,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={74,115,104,109,102,115,121,106,105,37,75,116,119,106,120,121,67,144} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 255, 0), Color3._0x311b5_31(170, 0, 255))
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0xfcf9e_267()
+    _0x541fc_203((function() local _0xba619_3={92,116,119,113,105,37,71,122,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={70,115,108,106,113,120,37,43,37,73,106,114,116,115,120,52,20} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Color3._0x311b5_31(255, 255, 0), Color3._0x311b5_31(255, 140, 160))
+_0x9faf7_21
+
+_0xb177c_268 _0x2de69_269 _0xd16a4_1 = nil
+
+local function _0x101f9_270(_0xaeed4_271)
+    _0xa79f9_15 _0xec606_272 _0xb93f0_159 _0xec606_272._0x5ec10_26 _0x386d0_18
+        _0xec606_272:_0xdf955_20()
+        _0xec606_272 = nil
+    _0x9faf7_21
+
+    _0x51f55_273 _0xd16a4_1 = _0xf7150_274._0x914db_275 _0x53361_167 _0xf7150_274._0xddd25_276:_0xa5c3d_277()
+    _0xdef16_278 _0xd16a4_1 = _0x51f55_273:_0xed3c9_279((function() local _0xba619_3={80,106,117,102,113,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0x53361_167 _0x51f55_273:_0x0eaf1_280((function() local _0xba619_3={80,106,117,102,113,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), 3)
+    _0xa79f9_15 _0x0d286_180 _0xdef16_278 _0x386d0_18 _0x5b3bd_143 _0x9faf7_21
+
+    _0xec606_272 = Instance._0x9a232_23((function() local _0xba619_3={71,110,113,113,103,116,102,119,105,76,122,110} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xec606_272._0x83160_24 = (function() local _0xba619_3={72,122,120,121,116,114,77,106,102,105,89,106,125,121,71,110,113,113,103,116,102,119,105} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xec606_272._0xa668d_28 = UDim2._0x9a232_23(0, 300, 0, 50)
+    _0xec606_272._0x7df15_281 = Vector3._0x9a232_23(0, 2.5, 0)
+    _0xec606_272._0x6245c_282 = true
+    _0xec606_272._0x5ec10_26 = _0xb44b8_283
+
+    _0x3483a_284 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x3483a_284._0xa668d_28 = UDim2._0x9a232_23(1, 0, 1, 0)
+    _0x3483a_284._0xe8c7c_45 = 1
+    _0x3483a_284._0xa0ca6_118 = Vector2._0x9a232_23(0.5, 0.5)
+    _0x3483a_284._0x02310_29 = UDim2._0x9a232_23(0.5, 0, 0.5, 0)
+    _0x3483a_284._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x3483a_284._0x5ec10_26 = _0xec606_272
+
+    local _0xb9f9f_157 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xb9f9f_157._0x0c595_120 = Enum._0x0c595_120._0x53d5c_158
+    _0xb9f9f_157._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0xb9f9f_157._0x7c520_122 = Enum._0x7c520_122._0x75daf_69
+    _0xb9f9f_157._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0xb9f9f_157._0xf5e4e_67 = UDim._0x9a232_23(0, 6)
+    _0xb9f9f_157._0x5ec10_26 = _0x3483a_284
+
+    local _0x69b45_285 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x69b45_285._0xa668d_28 = UDim2._0x9a232_23(0, 0, 1, 0)
+    _0x69b45_285._0xe8c7c_45 = 1
+    _0x69b45_285._0x34ff9_57 = Enum._0x34ff9_57._0xcd9b2_156
+    _0x69b45_285._0xbf1f2_46 = _0xaeed4_271
+    _0x69b45_285._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0x69b45_285._0xca290_48 = 19
+    _0x69b45_285._0x96e6f_49 = Enum._0x96e6f_49._0x3cf00_286
+    _0x69b45_285._0xdb614_66 = 1
+    _0x69b45_285._0x5ec10_26 = _0x3483a_284
+
+    _0xc362b_236 _0xaadda_287 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x12220_288._0x4597e_170 = 1.5
+    _0x12220_288._0x9aa36_171 = Color3._0x311b5_31(0, 0, 0)
+    _0x12220_288._0x5ec10_26 = _0x69b45_285
+
+    _0xd16a4_1 _0x63eae_289 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x63eae_289._0xa668d_28 = UDim2._0x9a232_23(0, 18, 0, 18)
+    _0x63eae_289._0xe8c7c_45 = 1
+    _0x63eae_289._0xf1a17_161 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,61,53,55,62,53,60,54,61,58,61,57,60,57,61} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x63eae_289._0xdb614_66 = 2
+    _0x63eae_289._0x5ec10_26 = _0x3483a_284
+_0x9faf7_21
+
+local _0x65147_290 = nil
+
+_0x9b0c4_94 _0xd16a4_1 _0xbac58_291()
+    _0xa79f9_15 _0x65147_290 _0xb93f0_159 _0x65147_290._0x5ec10_26 _0x386d0_18
+        _0x65147_290:_0xdf955_20()
+        _0x65147_290 = nil
+        _0xd0f17_102
+    _0x9faf7_21
+
+    _0x65147_290 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x65147_290._0x83160_24 = (function() local _0xba619_3={85,113,102,126,106,119,88,121,102,121,122,120,92,110,115,105,116,124} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x65147_290._0xa668d_28 = UDim2._0x9a232_23(0, 420, 0, 480)
+    _0x65147_290._0x02310_29 = UDim2._0x9a232_23(0.5, -210, 0.5, -240)
+    _0x65147_290._0x7d891_30 = Color3._0x311b5_31(25, 25, 38)
+    _0x65147_290._0x199f5_32 = 0
+    _0x65147_290._0x69b64_33 = true
+    _0x65147_290._0xf15d3_34 = true
+    _0x65147_290._0x6a92f_35 = true
+    _0x65147_290._0x5ec10_26 = _0xe9b60_22
+
+    local _0xaf295_292 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xaf295_292._0xa59e8_37 = UDim._0x9a232_23(0, 14)
+    _0xaf295_292._0x5ec10_26 = _0x65147_290
+
+    _0x1ee3a_41 _0xabab4_71 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xf8be3_293._0xa668d_28 = UDim2._0x9a232_23(1, -50, 0, 45)
+    _0xf8be3_293._0x02310_29 = UDim2._0x9a232_23(0, 15, 0, 0)
+    _0xf8be3_293._0xe8c7c_45 = 1
+    _0xf8be3_293._0xbf1f2_46 = (function() local _0xba619_3={65,179,37,85,90,88,70,89,37,88,89,70,89,90,88,37,85,74,82,70,78,83,37,81,70,83,76,88,90,83,76} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xf8be3_293._0x84088_47 = Color3._0x311b5_31(0, 162, 255)
+    _0xf8be3_293._0xca290_48 = 15
+    _0xf8be3_293._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0xf8be3_293._0x13b10_294 = Enum._0x13b10_294._0x21070_295
+    _0xf8be3_293._0x5ec10_26 = _0x65147_290
+
+    local _0x31e35_296 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x31e35_296._0xa668d_28 = UDim2._0x9a232_23(0, 30, 0, 30)
+    _0x31e35_296._0x02310_29 = UDim2._0x9a232_23(1, -38, 0, 8)
+    _0x31e35_296._0x7d891_30 = Color3._0x311b5_31(200, 50, 50)
+    _0x31e35_296._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0x31e35_296._0xbf1f2_46 = (function() local _0xba619_3={93} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x31e35_296._0xca290_48 = 14
+    _0x31e35_296._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0x31e35_296._0x5ec10_26 = _0x65147_290
+
+    local _0xd85ef_297 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xd85ef_297._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+    _0xd85ef_297._0x5ec10_26 = _0x31e35_296
+
+    _0x31e35_296._0xdd917_298:Connect(function()
+        _0xa79f9_15 _0x65147_290 _0xb93f0_159 _0x65147_290._0x5ec10_26 _0x386d0_18
+            _0x65147_290:_0xdf955_20()
+            _0x65147_290 = nil
+        _0x9faf7_21
+    _0x9faf7_21)
+
+    _0x0cec6_299 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x0cec6_299._0xa668d_28 = UDim2._0x9a232_23(0.92, 0, 0, 1)
+    _0x0cec6_299._0x02310_29 = UDim2._0x9a232_23(0.04, 0, 0, 45)
+    _0x0cec6_299._0x7d891_30 = Color3._0x311b5_31(50, 50, 70)
+    _0x0cec6_299._0x199f5_32 = 0
+    _0x0cec6_299._0x5ec10_26 = _0x65147_290
+
+    _0xd16a4_1 _0x66068_300 = Instance._0x9a232_23((function() local _0xba619_3={88,104,119,116,113,113,110,115,108,75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x66068_300._0xa668d_28 = UDim2._0x9a232_23(1, 0, 1, -55)
+    _0x66068_300._0x02310_29 = UDim2._0x9a232_23(0, 0, 0, 52)
+    _0x66068_300._0xe8c7c_45 = 1
+    _0x66068_300._0x199f5_32 = 0
+    _0x66068_300._0xd37c9_53 = 5
+    _0x66068_300._0x00b16_54 = Color3._0x311b5_31(0, 162, 255)
+    _0x66068_300._0xbf93a_55 = UDim2._0x9a232_23(0, 0, 0, 0)
+    _0x66068_300._0xf33e6_56 = Enum._0x34ff9_57._0x96835_58
+    _0x66068_300._0x5ec10_26 = _0x65147_290
+
+    local _0xd67ac_301 = Instance._0x9a232_23((function() local _0xba619_3={90,78,85,102,105,105,110,115,108} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xd67ac_301._0xba180_60 = UDim._0x9a232_23(0, 5)
+    _0xd67ac_301._0xd2a5a_61 = UDim._0x9a232_23(0, 15)
+    _0xd67ac_301._0x722a0_62 = UDim._0x9a232_23(0, 15)
+    _0xd67ac_301._0xcfded_63 = UDim._0x9a232_23(0, 15)
+    _0xd67ac_301._0x5ec10_26 = _0x66068_300
+
+    local _0xd19b7_302 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xd19b7_302._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0xd19b7_302._0xf5e4e_67 = UDim._0x9a232_23(0, 8)
+    _0xd19b7_302._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0xd19b7_302._0x5ec10_26 = _0x66068_300
+
+    task.spawn(function())
+        _0x6bfd4_303 _0x65147_290 _0xb93f0_159 _0x65147_290._0x5ec10_26 _0x8991f_304
+            _0xaaa8d_0 _0xd16a4_1 _0x39278_305 _0x6a966_306 = _0xaaa8d_0:_0x0b75f_307()
+            local _0x85e9d_308 = {}
+
+            _0x416bb_309 _0x1678f_310, _0x82ec4_311 _0x2ab18_312 ipairs(_0xc02c7_313) _0x62ce9_314
+                _0x85e9d_308[_0x82ec4_311._0x57725_137] = true
+                _0x5a030_315 _0x5c47b_209 _0xd16a4_1 = (function() local _0xba619_3={71,102,119,110,120,85,106,114,102,110,115,100} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0x82ec4_311._0x57725_137
+                _0x5c47b_209 _0xd16a4_1 = _0x66068_300:_0xed3c9_279(_0x1c814_96 _0x5c47b_209)
+
+                _0xa79f9_15 _0xc6785_316 _0x5c47b_209 _0x386d0_18
+                    _0x5c47b_209 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xe9f62_317._0x83160_24 = _0x477ec_318
+                    _0xdcf13_40 _0x5c47b_209 = UDim2._0x1751a_42(1, 0, 0, 55)
+                    _0x5c47b_209._0x32ca8_319 = _0x66861_222._0xc74e5_223(38, 38, 55)
+                    _0xe9f62_317._0x199f5_32 = 0
+                    _0xe9f62_317._0xdb614_66 = _0x9c9ad_320
+                    _0xe9f62_317._0x5ec10_26 = _0x66068_300
+
+                    local _0xd52c7_321 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xd52c7_321._0xa59e8_37 = UDim._0x9a232_23(0, 8)
+                    _0xd52c7_321._0x5ec10_26 = _0x5c47b_209
+
+                    local _0x13468_322 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0x13468_322._0x83160_24 = (function() local _0xba619_3={85,70,123,102,121,102,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0x13468_322._0xa668d_28 = UDim2._0x9a232_23(0, 40, 0, 40)
+                    _0x13468_322._0xea75e_44 = UDim2._0x1751a_42(0, 8, 0.5, -20)
+                    _0x13468_322._0xe8c7c_45 = 1
+                    _0x13468_322._0x5ec10_26 = _0x5c47b_209
+
+                    local _0x59881_323 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0x59881_323._0xa59e8_37 = UDim._0x9a232_23(0, 6)
+                    _0x59881_323._0x5ec10_26 = _0x13468_322
+
+                    pcall(function())
+                        _0x13468_322._0xf1a17_161 = Players:_0x3b3a1_136(_0x82ec4_311._0x57725_137, Enum._0x16333_138._0x0960c_139, Enum._0xb32d0_140._0xae5a8_141)
+                    _0x9faf7_21)
+
+                    _0x1c814_96 _0xabab4_71 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xe3cfb_324._0x83160_24 = (function() local _0xba619_3={83,102,114,106,89,106,125,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0xe3cfb_324._0xa668d_28 = UDim2._0x9a232_23(0.55, 0, 0, 22)
+                    _0xe3cfb_324._0x02310_29 = UDim2._0x9a232_23(0, 55, 0, 7)
+                    _0xe3cfb_324._0xe8c7c_45 = 1
+                    _0xba5ca_325._0xc362b_236 = _0x82ec4_311._0x8372a_326.. (function() local _0xba619_3={37,45,69} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0x82ec4_311._0x5a030_315.. (function() local _0xba619_3={46} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0xba5ca_325._0xc66de_221 = _0x66861_222._0xc74e5_223(255, 255, 255)
+                    _0xe3cfb_324._0xca290_48 = 12
+                    _0xe3cfb_324._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+                    _0xe3cfb_324._0x13b10_294 = Enum._0x13b10_294._0x21070_295
+                    _0xe3cfb_324._0x5ec10_26 = _0x5c47b_209
+
+                    local _0xbeb02_327 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xbeb02_327._0x83160_24 = (function() local _0xba619_3={85,73,110,120,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0xbeb02_327._0xa668d_28 = UDim2._0x9a232_23(0.55, 0, 0, 18)
+                    _0xbeb02_327._0x02310_29 = UDim2._0x9a232_23(0, 55, 0, 30)
+                    _0xbeb02_327._0xe8c7c_45 = 1
+                    _0xbeb02_327._0x84088_47 = Color3._0x311b5_31(180, 180, 200)
+                    _0xbeb02_327._0xca290_48 = 11
+                    _0xbeb02_327._0x96e6f_49 = Enum._0x96e6f_49._0xce7cd_74
+                    _0xbeb02_327._0x13b10_294 = Enum._0x13b10_294._0x21070_295
+                    _0xbeb02_327._0x5ec10_26 = _0x5c47b_209
+
+                    local _0x80ddc_328 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0x80ddc_328._0x83160_24 = (function() local _0xba619_3={85,88,121,102,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0x80ddc_328._0xdcf13_40 = UDim2._0x1751a_42(0,4, 0, 0, 18)
+                    _0x80ddc_328._0xea75e_44 = UDim2._0x1751a_42(0,58, 0, 0, 18)
+                    _0x80ddc_328._0xe8c7c_45 = 1
+                    _0x80ddc_328._0xca290_48 = 11
+                    _0x80ddc_328._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+                    _0x80ddc_328._0x13b10_294 = Enum._0x13b10_294._0xad8a5_329
+                    _0x80ddc_328._0x5ec10_26 = _0x5c47b_209
+                _0x9faf7_21
+
+                local _0xbeb02_327 = _0xe9f62_317:FindFirstChild((function() local _0xba619_3={85,73,110,120,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                local _0x80ddc_328 = _0xe9f62_317:FindFirstChild((function() local _0xba619_3={85,88,121,102,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+
+                local _0x48342_330 = (function() local _0xba619_3={79,102,119,102,112,63,37,89,110,105,102,112,37,89,106,119,120,106,105,110,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                local _0xccb1a_331 = (function() local _0xba619_3={88,121,102,121,122,120,63,37,89,110,105,102,112,37,70,112,121,110,107} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                _0x46c0e_332 _0xd16a4_1 = Color3._0x311b5_31(150, 150, 150)
+
+                _0x914db_275 _0xd16a4_1 _0xcf3eb_333 = _0xf7150_274._0x914db_275
+                _0x914db_275 _0xd16a4_1 _0x2e2fc_334 = _0x82ec4_311.Character
+                _0xa79f9_15 _0xcf3eb_333 _0xb93f0_159 _0xcf3eb_333:FindFirstChild((function() local _0xba619_3={77,122,114,102,115,116,110,105,87,116,116,121,85,102,119,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0xb93f0_159 _0x2e2fc_334 _0xb93f0_159 _0x2e2fc_334:FindFirstChild((function() local _0xba619_3={77,122,114,102,115,116,110,105,87,116,116,121,85,102,119,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0x386d0_18
+                    _0x57983_335 _0xd16a4_1 = (_0xcf3eb_333._0x25d8b_336._0x02310_29 - _0x2e2fc_334._0x25d8b_336._0x02310_29)._0x9d3a8_337
+                    _0x48342_330 = string._0x717c5_338((function() local _0xba619_3={79,102,119,102,112,63,37,42,51,54,107,37,120,121,122,105} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0x17ef0_339)
+
+                    _0xf306f_340 _0xd16a4_1 = _0x2e2fc_334:_0xceb9e_341((function() local _0xba619_3={77,122,114,102,115,116,110,105} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xa79f9_15 _0xf306f_340 _0x386d0_18
+                        _0x7e8c1_342 _0xd16a4_1 = _0x2e2fc_334._0x25d8b_336._0xd414c_343._0x5f6e6_344
+                        _0xa79f9_15 _0xf306f_340._0x1aa3e_345 _0x52ba5_346
+                            _0xccb1a_331 = (function() local _0xba619_3={88,121,102,121,122,120,63,37,67,150,37,73,122,105,122,112} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                            _0x46c0e_332 = Color3._0x311b5_31(255, 170, 0)
+                        _0xa79f9_15 _0x0e81e_347 > 18 _0x386d0_18
+                            _0xccb1a_331 = string._0x717c5_338((function() local _0xba619_3={88,121,102,121,122,120,63,37,65,200,37,71,106,119,113,102,119,110,37,45,80,106,104,106,117,102,121,102,115,63,37,42,51,53,107,46} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0x1109d_348)
+                            _0x46c0e_332 = Color3._0x311b5_31(0, 255, 120)
+                        _0xa79f9_15 _0x0e81e_347 > 2 _0x386d0_18
+                            _0xccb1a_331 = (function() local _0xba619_3={88,121,102,121,122,120,63,37,66,187,37,71,106,119,111,102,113,102,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                            _0x46c0e_332 = Color3._0x311b5_31(0, 200, 255)
+                        _0x3bb2d_163
+                            _0xccb1a_331 = (function() local _0xba619_3={88,121,102,121,122,120,63,37,66,169,37,71,106,119,105,110,119,110,37,52,37,78,120,121,110,119,102,109,102,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                            _0x46c0e_332 = Color3._0x311b5_31(200, 100, 255)
+                        _0x9faf7_21
+                    _0x9faf7_21
+                _0x9faf7_21
+
+                _0xa79f9_15 _0xbeb02_327 _0x386d0_18 _0xbeb02_327._0xbf1f2_46 = _0x48342_330
+                _0xa79f9_15 _0x80ddc_328 _0x386d0_18
+                    _0x80ddc_328._0xbf1f2_46 = _0xccb1a_331
+                    _0x80ddc_328._0x84088_47 = _0x46c0e_332
+                _0x9faf7_21
+            _0x9faf7_21
+
+            _0x416bb_309 _0x62207_5, _0xbc410_349 _0x2ab18_312 ipairs(_0x66068_300:_0x4d237_350()) _0x62ce9_314
+                _0xa79f9_15 _0xda994_351:_0xb91ef_352((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0xb93f0_159 string._0xdc8f6_353(_0xda994_351._0x83160_24, 1, 11) == (function() local _0xba619_3={85,113,102,126,106,119,87,116,124,100} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0x386d0_18
+                    _0x5ff50_354 _0xd16a4_1 = tonumber(string._0xdc8f6_353(_0x1c814_96 _0xbc410_349, 12))
+                    _0xa79f9_15 _0x95363_355 _0xb93f0_159 _0x0d286_180 _0x85e9d_308[_0x95363_355] _0x386d0_18
+                        _0xda994_351:_0xdf955_20()
+                    _0x9faf7_21
+                _0x9faf7_21
+            _0x9faf7_21
+
+            task._0xd3c40_356(0.3)
+        _0x9faf7_21
+    _0x9faf7_21)
+_0x9faf7_21
+
+local _0x8e288_357 = nil
+
+_0x9b0c4_94 _0xd16a4_1 _0x8dfe3_358(_0xf042f_359)
+    _0xe900d_360 _0xd16a4_1 = math._0xd559e_361(_0x90230_362 / 86400)
+    _0xe214c_363 _0xd16a4_1 = math._0xd559e_361((_0x90230_362 % 86400) / 3600)
+    _0xfd7cc_364 _0xd16a4_1 = math._0xd559e_361((_0x90230_362 % 3600) / 60)
+    _0xf9e3d_365 _0xd16a4_1 = math._0xd559e_361(_0x90230_362 % 60)
+
+    _0xfe796_366 _0xd16a4_1 = {}
+    _0xa79f9_15 _0xe900d_360 > 0 _0x386d0_18 _0xeb180_367._0x596ca_368(_0xfe796_366, _0xe900d_360 .. (function() local _0xba619_3={105} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x4e30b_369 _0xe214c_363 > 0 _0x386d0_18 _0xab5c0_370 _0xeb180_367 (_0xfe796_366, _0xe214c_363 .. (function() local _0xba619_3={109} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x4e30b_369 _0xfd7cc_364 > 0 _0x386d0_18 _0x596ca_368 _0xeb180_367 (_0xfe796_366, _0xfd7cc_364 .. (function() local _0xba619_3={114} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    table._0x63cea_371(_0xf63bd_372, _0x76dbb_373 .. (function() local _0xba619_3={120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+
+    _0x5b3bd_143 _0xeb180_367._0xa696f_374(_0xfe796_366, (function() local _0xba619_3={37} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0xdc0af_375()
+    return math._0x07b8c_376(3600, 259200)
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0x4df49_377()
+    _0xa79f9_15 _0x8e288_357 _0xb93f0_159 _0x8e288_357._0x5ec10_26 _0x386d0_18
+        _0x8e288_357:_0xdf955_20()
+        _0x8e288_357 = nil
+        _0xd0f17_102
+    _0x9faf7_21
+
+    _0x8e288_357 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x8e288_357._0x83160_24 = (function() local _0xba619_3={79,106,115,105,106,113,102,37,85,119,106,105,110,112,120,110,37,89,106,113,122,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x8e288_357._0xa668d_28 = UDim2._0x9a232_23(0, 390, 0, 200)
+    _0x8e288_357._0x02310_29 = UDim2._0x9a232_23(0.5, -195, 0.5, -100)
+    _0x8e288_357._0x7d891_30 = Color3._0x311b5_31(25, 25, 38)
+    _0x8e288_357._0x199f5_32 = 0
+    _0x8e288_357._0x69b64_33 = true
+    _0x8e288_357._0xf15d3_34 = true
+    _0x8e288_357._0x6a92f_35 = true
+    _0x8e288_357._0x5ec10_26 = _0xe9b60_22
+
+    local _0x5c842_378 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x5c842_378._0xa59e8_37 = UDim._0x9a232_23(0, 12)
+    _0x5c842_378._0x5ec10_26 = _0x8e288_357
+
+    local _0x0693c_379 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x0693c_379._0xa668d_28 = UDim2._0x9a232_23(1, -40, 0, 30)
+    _0x0693c_379._0x02310_29 = UDim2._0x9a232_23(0, 12, 0, 0)
+    _0x0693c_379._0xe8c7c_45 = 1
+    _0x0693c_379._0xbf1f2_46 = (function() local _0xba619_3={66,51,37,85,87,74,73,78,80,88,78,37,89,74,81,90,87,37,80,74,87,70,79,70,70,83} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x0693c_379._0x84088_47 = Color3._0x311b5_31(255, 170, 0)
+    _0x0693c_379._0xca290_48 = 13
+    _0x0693c_379._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0x0693c_379._0x13b10_294 = Enum._0x13b10_294._0x21070_295
+    _0x0693c_379._0x5ec10_26 = _0x8e288_357
+
+    local _0x31e35_296 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x31e35_296._0xa668d_28 = UDim2._0x9a232_23(0, 22, 0, 22)
+    _0x31e35_296._0x02310_29 = UDim2._0x9a232_23(1, -28, 0, 4)
+    _0x31e35_296._0x7d891_30 = Color3._0x311b5_31(200, 50, 50)
+    _0x31e35_296._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+    _0x31e35_296._0xbf1f2_46 = (function() local _0xba619_3={93} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x31e35_296._0xca290_48 = 12
+    _0x31e35_296._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0x31e35_296._0x5ec10_26 = _0x8e288_357
+
+    local _0xd85ef_297 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xd85ef_297._0xa59e8_37 = UDim._0x9a232_23(0, 6)
+    _0xd85ef_297._0x5ec10_26 = _0x31e35_296
+
+    _0x31e35_296._0xdd917_298:Connect(function()
+        _0xa79f9_15 _0x8e288_357 _0xb93f0_159 _0x8e288_357._0x5ec10_26 _0x386d0_18
+            _0x8e288_357:_0xdf955_20()
+            _0x8e288_357 = nil
+        _0x9faf7_21
+    _0x9faf7_21)
+
+    _0xabe90_380 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xabe90_380._0xa668d_28 = UDim2._0x9a232_23(0.94, 0, 0, 1)
+    _0xabe90_380._0x02310_29 = UDim2._0x9a232_23(0.03, 0, 0, 30)
+    _0xabe90_380._0x7d891_30 = Color3._0x311b5_31(50, 50, 70)
+    _0xabe90_380._0x199f5_32 = 0
+    _0xabe90_380._0x5ec10_26 = _0x8e288_357
+
+    local _0x1fa10_381 = Instance._0x9a232_23((function() local _0xba619_3={88,104,119,116,113,113,110,115,108,75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x1fa10_381._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 135)
+    _0x1fa10_381._0x02310_29 = UDim2._0x9a232_23(0, 0, 0, 33)
+    _0x1fa10_381._0xe8c7c_45 = 1
+    _0x1fa10_381._0x199f5_32 = 0
+    _0x1fa10_381._0xd37c9_53 = 4
+    _0x1fa10_381._0x00b16_54 = Color3._0x311b5_31(255, 170, 0)
+    _0x1fa10_381._0xbf93a_55 = UDim2._0x9a232_23(0, 0, 0, 0)
+    _0x1fa10_381._0xf33e6_56 = Enum._0x34ff9_57._0x96835_58
+    _0x1fa10_381._0x5ec10_26 = _0x8e288_357
+
+    local _0x28ccf_382 = Instance._0x9a232_23((function() local _0xba619_3={90,78,85,102,105,105,110,115,108} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x28ccf_382._0xba180_60 = UDim._0x9a232_23(0, 4)
+    _0x28ccf_382._0xd2a5a_61 = UDim._0x9a232_23(0, 6)
+    _0x28ccf_382._0x722a0_62 = UDim._0x9a232_23(0, 10)
+    _0x28ccf_382._0xcfded_63 = UDim._0x9a232_23(0, 10)
+    _0x28ccf_382._0x5ec10_26 = _0x1fa10_381
+
+    local _0x180f4_383 = Instance._0x9a232_23((function() local _0xba619_3={90,78,81,110,120,121,81,102,126,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x180f4_383._0xcb29a_65 = Enum._0xcb29a_65._0xdb614_66
+    _0x180f4_383._0xf5e4e_67 = UDim._0x9a232_23(0, 5)
+    _0x180f4_383._0x94347_68 = Enum._0x94347_68._0x75daf_69
+    _0x180f4_383._0x5ec10_26 = _0x1fa10_381
+
+    _0x836a4_384 _0xd16a4_1 _0xa64e7_385 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x28eb4_386._0xdcf13_40 = UDim2._0x1751a_42(1, 0, 0, 30)
+    _0x28eb4_386._0x02310_29 = UDim2._0x1751a_42(0, 0, 1, -30)
+    _0x28eb4_386._0x7d891_30 = Color3._0x311b5_31(18, 18, 28)
+    _0x28eb4_386._0x199f5_32 = 0
+    _0x28eb4_386._0x5ec10_26 = _0x8e288_357
+
+    local _0x07c8c_387 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x07c8c_387._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 1)
+    _0x07c8c_387._0x02310_29 = UDim2._0x9a232_23(0, 0, 0, 0)
+    _0x07c8c_387._0x7d891_30 = Color3._0x311b5_31(50, 50, 70)
+    _0x07c8c_387._0x199f5_32 = 0
+    _0x07c8c_387._0x5ec10_26 = _0x28eb4_386
+
+    local _0x76bae_388 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x76bae_388._0xa668d_28 = UDim2._0x9a232_23(1, -20, 1, 0)
+    _0x76bae_388._0xea75e_44 = UDim2._0x1751a_42(0, 10, 0, 0)
+    _0x76bae_388._0xe8c7c_45 = 1
+    _0x76bae_388._0xbf1f2_46 = (function() local _0xba619_3={85,106,119,112,110,119,102,102,115,37,89,106,113,122,119,37,82,110,115,52,82,102,125,63,37,54,37,109,110,115,108,108,102,37,58,37,129,37,89,110,115,108,112,102,121,37,80,106,114,122,115,104,122,113,102,115,37,77,106,124,102,115,37,85,106,113,110,109,102,119,102,102,115,63,37,58,53,37,109,110,115,108,108,102,37,55,58,53} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x76bae_388._0x84088_47 = Color3._0x311b5_31(0, 220, 140)
+    _0x76bae_388._0xca290_48 = 10
+    _0x76bae_388._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+    _0x76bae_388._0x13b10_294 = Enum._0x13b10_294._0x75daf_69
+    _0x76bae_388._0x5ec10_26 = _0x28eb4_386
+
+    _0xf2a56_389 _0x61100_390 _0x1380a_391 _0xd16a4_1 = {
+        { _0x40104_392 = (function() local _0xba619_3={89,106,113,122,119,37,90,115,110,104,116,119,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xbeb1e_393 = (function() local _0xba619_3={54,55,58,56,60,62,61,56,56,58,54,57,58,62,55} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() },
+        { _0x40104_392 = (function() local _0xba619_3={89,106,113,122,119,37,80,110,121,120,122,115,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xbeb1e_393 = (function() local _0xba619_3={54,55,56,54,62,56,58,56,54,54,53,62,55,54,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() },
+        { _0x40104_392 = (function() local _0xba619_3={89,106,113,122,119,37,83,110,108,107,113,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xbeb1e_393 = (function() local _0xba619_3={54,56,57,56,56,61,55,58,59,54,54,60,56,59,55} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() },
+        { _0x40104_392 = (function() local _0xba619_3={89,106,113,122,119,37,82,102,113,102,110,112,102,121,37,70,108,122,115,108} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xbeb1e_393 = (function() local _0xba619_3={62,57,57,62,61,61,59,59,61,54,60,60,55,53} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() },
+        { _0x40104_392 = (function() local _0xba619_3={89,106,113,122,119,37,85,106,114,103,102,112,102,119,37,73,122,115,110,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xbeb1e_393 = (function() local _0xba619_3={54,55,60,55,59,56,61,61,58,58,59,53,55,55,55} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() },
+        { _0x40104_392 = (function() local _0xba619_3={89,106,113,122,119,37,85,102,122,120,37,81,102,115,108,110,121,37,80,106,119,102,111,102,102,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xbeb1e_393 = (function() local _0xba619_3={54,53,54,57,61,53,62,58,57,59,59,56,60,55,54} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() },
+    }
+
+    _0xa79f9_15 _0xc6785_316 _G._0xefa9f_394 _0x386d0_18
+        _G._0xefa9f_394 = {}
+        math._0x8d88b_395(os.time())
+        _0x416bb_309 _0x62207_5, _0x1380a_391 _0x2ab18_312 ipairs(_0x0434a_396) _0x62ce9_314
+            _G._0xefa9f_394[_0x8b1ca_397._0xbeb1e_393] = _0xdc0af_375()
+        _0x9faf7_21
+    _0x9faf7_21
+
+    task.spawn(function())
+        _0x6bfd4_303 _0x8e288_357 _0xb93f0_159 _0x8e288_357._0x5ec10_26 _0x8991f_304
+            _0x416bb_309 _0x025f4_398 _0x1678f_310, _0x1380a_391 _0x2ab18_312 ipairs(_0x0434a_396) _0x62ce9_314
+                _0x5a030_315 _0x5c47b_209 _0xd16a4_1 = (function() local _0xba619_3={71,102,119,110,120,37,89,106,113,122,119,100} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0x8b1ca_397._0xbeb1e_393
+                _0x5c47b_209 _0xd16a4_1 = _0x1fa10_381:_0xed3c9_279(_0x1c814_96 _0x5c47b_209)
+
+                _0xa79f9_15 _0xc6785_316 _0x5c47b_209 _0x386d0_18
+                    _0x5c47b_209 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xe9f62_317._0x83160_24 = _0x477ec_318
+                    _0xdcf13_40 _0x5c47b_209 = UDim2._0x1751a_42(1, 0, 0, 36)
+                    _0x5c47b_209._0x32ca8_319 = _0x66861_222._0xc74e5_223(35, 35, 50)
+                    _0xe9f62_317._0x199f5_32 = 0
+                    _0xe9f62_317._0xdb614_66 = _0x9c9ad_320
+                    _0xe9f62_317._0x5ec10_26 = _0x1fa10_381
+
+                    local _0xd52c7_321 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xd52c7_321._0xa59e8_37 = UDim._0x9a232_23(0, 6)
+                    _0xd52c7_321._0x5ec10_26 = _0x5c47b_209
+
+                    local _0x215c0_399 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0x215c0_399._0x83160_24 = (function() local _0xba619_3={78,112,116,115,37,89,106,113,122,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0x215c0_399._0xa668d_28 = UDim2._0x9a232_23(0, 26, 0, 26)
+                    _0x215c0_399._0x02310_29 = UDim2._0x9a232_23(0, 6, 0.5, -13)
+                    _0x215c0_399._0xe8c7c_45 = 1
+                    _0x215c0_399._0xf1a17_161 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0x8b1ca_397._0xbeb1e_393
+                    _0x215c0_399._0x5ec10_26 = _0x5c47b_209
+
+                    local _0x300df_400 = Instance._0x9a232_23((function() local _0xba619_3={90,78,72,116,119,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0x300df_400._0xa59e8_37 = UDim._0x9a232_23(0, 4)
+                    _0x300df_400._0x5ec10_26 = _0x215c0_399
+
+                    _0x1c814_96 _0xabab4_71 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0xe3cfb_324._0x83160_24 = (function() local _0xba619_3={83,102,114,102,37,89,106,113,122,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0xe3cfb_324._0xa668d_28 = UDim2._0x9a232_23(0.38, 0, 1, 0)
+                    _0xe3cfb_324._0x02310_29 = UDim2._0x9a232_23(0, 38, 0, 0)
+                    _0xe3cfb_324._0xe8c7c_45 = 1
+                    _0xe3cfb_324._0xbf1f2_46 = _0x8b1ca_397._0x40104_392
+                    _0xba5ca_325._0xc66de_221 = _0x66861_222._0xc74e5_223(255, 255, 255)
+                    _0xe3cfb_324._0xca290_48 = 10
+                    _0xe3cfb_324._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+                    _0xe3cfb_324._0x13b10_294 = Enum._0x13b10_294._0x21070_295
+                    _0xe3cfb_324._0x5ec10_26 = _0x5c47b_209
+
+                    local _0x84390_401 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                    _0x84390_401._0x83160_24 = (function() local _0xba619_3={77,110,121,122,115,108,37,82,122,115,105,122,119,37,89,106,113,122,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+                    _0x84390_401._0xa668d_28 = UDim2._0x9a232_23(0.58, 0, 1, 0)
+                    _0x84390_401._0x02310_29 = UDim2._0x9a232_23(0.40, 0, 0, 0)
+                    _0x84390_401._0xe8c7c_45 = 1
+                    _0x84390_401._0x84088_47 = Color3._0x311b5_31(255, 200, 0)
+                    _0x84390_401._0xca290_48 = 9
+                    _0x84390_401._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+                    _0x84390_401._0x13b10_294 = Enum._0x13b10_294._0xad8a5_329
+                    _0x84390_401._0x5ec10_26 = _0x5c47b_209
+                _0x9faf7_21
+
+                _0xe2c58_402 _0xd16a4_1 _0x392ea_403 = _G._0xefa9f_394[_0x8b1ca_397._0xbeb1e_393] _0x53361_167 _0xdc0af_375()
+                _0xa79f9_15 _0xe2c58_402 _0x4578e_404 > 0 _0x386d0_18
+                    _0xe2c58_402 _0x4578e_404 = _0xe2c58_402 _0x4578e_404 - 1
+                    _G._0xefa9f_394[_0x8b1ca_397._0xbeb1e_393] = _0xa6ebe_405
+                _0x3bb2d_163
+                    _G._0xefa9f_394[_0x8b1ca_397._0xbeb1e_393] = _0xdc0af_375()
+                _0x9faf7_21
+
+                local _0x96238_406 = _0xe9f62_317:FindFirstChild((function() local _0xba619_3={74,108,108,72,116,122,115,121,105,116,124,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+                _0xa79f9_15 _0x96238_406 _0x386d0_18
+                    _0x96238_406._0xbf1f2_46 = _0x8dfe3_358(_0xa6ebe_405)
+                _0x9faf7_21
+            _0x9faf7_21
+
+            task._0xd3c40_356(1)
+        _0x9faf7_21
+    _0x9faf7_21)
+_0x9faf7_21
+
+_0xd16a4_1 _0x1e0c8_407 = false
+_0xd16a4_1 _0x5d42d_408 = nil
+
+_0x9b0c4_94 _0xd16a4_1 _0x50578_409()
+    _0x1e0c8_407 = _0x0d286_180 _0x1e0c8_407
+    
+    _0xa79f9_15 _0x1e0c8_407 _0x386d0_18
+        _0xbe752_144((function() local _0xba619_3={88,94,88,89,74,82} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={82,74,76,70,37,70,90,87,84,87,70,37,71,84,87,74,70,81,78,88,37,70,80,89,78,75,38} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), false, nil, true)
+        
+        _0x5d42d_408 = Instance._0x9a232_23((function() local _0xba619_3={75,116,113,105,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x5d42d_408._0x83160_24 = (function() local _0xba619_3={72,109,102,116,120,88,112,126,74,107,107,106,104,121,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x5d42d_408._0x5ec10_26 = _0x8cee6_410 _0x53e8d_411
+        
+        _0x1f35d_412._0xfd58c_413 = 0
+        _0x1f35d_412._0x44906_414 = 0.9
+        _0x1f35d_412._0x9494b_415 = Color3._0x311b5_31(15, 35, 60)
+        
+        _0x52227_416 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={70,121,114,116,120,107,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x7f790_417._0x83160_24 = (function() local _0xba619_3={72,109,102,116,120,70,121,114,116,120,117,109,106,119,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x7f790_417._0xf40fc_418 = 0.4
+        _0x7f790_417._0xf3958_184 = 0.2
+        _0x7f790_417._0x9aa36_171 = Color3._0x311b5_31(0, 255, 170)
+        _0x7f790_417._0xaa8ca_419 = Color3._0x311b5_31(50, 10, 140)
+        _0x7f790_417._0xe4ecf_420 = 0.8
+        _0x7f790_417._0x806fc_421 = 2.0
+        _0x7f790_417._0x5ec10_26 = _0x5d42d_408
+        
+        _0x90ec5_422 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={81,102,115,108,110,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xa69ed_423._0x83160_24 = (function() local _0xba619_3={72,109,102,116,120,88,112,126} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0x483d3_424 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,58,62,57,58,57,55,62,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0x658aa_425 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,58,62,57,58,57,55,62,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0x3bd06_426 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,58,62,57,58,57,55,62,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0xe79a5_427 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,58,62,57,58,57,55,62,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0x7c577_428 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,58,62,57,58,57,55,62,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0x0d317_429 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,58,62,57,58,57,55,62,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa69ed_423._0x82c7a_430 = 10000
+        _0xa69ed_423._0x5ec10_26 = _0x5d42d_408
+        
+        _0x516c9_431 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={85,102,119,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x516c9_431._0x83160_24 = (function() local _0xba619_3={70,122,119,116,119,102,88,112,126,73,116,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x516c9_431._0xa668d_28 = Vector3._0x9a232_23(4000, 1, 4000)
+        _0x516c9_431._0x95eb4_432 = 1
+        _0x516c9_431._0xde2b0_433 = true
+        _0x516c9_431._0xe7d99_434 = false
+        _0x516c9_431._0x5ec10_26 = _0x5d42d_408
+
+        _0x416bb_309 _0xa3819_435 = 1, 2 _0x62ce9_314
+            local _0xa375b_436 = Instance._0x9a232_23((function() local _0xba619_3={85,102,119,121,110,104,113,106,74,114,110,121,121,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+            _0xa375b_436._0x83160_24 = (function() local _0xba619_3={70,122,119,116,119,102,72,122,119,121,102,110,115,120,100} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0xa3819_435
+            _0xa375b_436._0x88c16_437 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,54,53,54,60,53,61,56,55,55,56,59,59,55,62} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+            _0xa375b_436._0xce58d_438 = 300
+            _0xa375b_436._0x84c83_439 = _0x09ee1_440._0x9a232_23(8, 14)
+            _0xa375b_436._0x04646_441 ​​= _0x09ee1_440._0x9a232_23(18, 38)
+            _0xa375b_436._0xae170_442 = 180
+            _0xa375b_436._0xb3e4b_443 = Enum._0x2fcc3_444._0xaecb6_445
+            _0xa375b_436._0x383e5_446 = 1
+            _0xa375b_436._0x3343d_447 = 0
+            _0xa375b_436._0xa668d_28 = _0xff490_448._0x9a232_23({
+                _0xf86a5_449._0x9a232_23(0, 300),
+                _0xf86a5_449._0x9a232_23(0.5, 700),
+                _0xf86a5_449._0x9a232_23(1, 300)
+            })
+            _0xa375b_436._0x95eb4_432 = _0xff490_448._0x9a232_23({
+                _0xf86a5_449._0x9a232_23(0, 1),
+                _0xf86a5_449._0x9a232_23(0.15, 0.2),
+                _0xf86a5_449._0x9a232_23(0.85, 0.2),
+                _0xf86a5_449._0x9a232_23(1, 1)
+            })
+            _0xa375b_436._0x9aa36_171 = _0x1ce53_174._0x9a232_23({
+                _0xc9109_175._0x9a232_23(0.0, Color3._0x311b5_31(0, 255, 150)),
+                _0xc9109_175._0x9a232_23(0.3, Color3._0x311b5_31(0, 230, 255)),
+                _0xc9109_175._0x9a232_23(0.7, Color3._0x311b5_31(200, 0, 255)),
+                _0xc9109_175._0x9a232_23(1.0, Color3._0x311b5_31(0, 255, 150))
+            })
+            _0xa375b_436._0x5ec10_26 = _0x516c9_431
+        _0x9faf7_21
+        
+        local _0x06f21_450 = Instance._0x9a232_23((function() local _0xba619_3={85,102,119,121,110,104,113,106,74,114,110,121,121,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x06f21_450._0x83160_24 = (function() local _0xba619_3={72,116,114,106,121,88,109,116,124,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x06f21_450._0x88c16_437 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,55,58,61,54,55,62,60,58,57} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x06f21_450._0xce58d_438 = 50
+        _0x06f21_450._0x84c83_439 = _0x09ee1_440._0x9a232_23(1.5, 3)
+        _0x06f21_450._0x04646_441 ​​= _0x09ee1_440._0x9a232_23(400, 650)
+        _0x06f21_450._0xbcfc2_451 = _0x5c8f0_452._0x1751a_42(60, 60)
+        _0x06f21_450._0x383e5_446 = 1
+        _0x06f21_450._0x3343d_447 = 0
+        _0x06f21_450._0xb97fd_453 = _0xff490_448._0x9a232_23(6)
+        _0x06f21_450._0xa668d_28 = _0xff490_448._0x9a232_23({
+            _0xf86a5_449._0x9a232_23(0, 8),
+            _0xf86a5_449._0x9a232_23(1, 0)
+        })
+        _0x06f21_450._0x9aa36_171 = _0x1ce53_174._0x9a232_23({
+            _0xc9109_175._0x9a232_23(0, Color3._0x311b5_31(255, 255, 255)),
+            _0xc9109_175._0x9a232_23(0.3, Color3._0x311b5_31(0, 255, 255)),
+            _0xc9109_175._0x9a232_23(0.7, Color3._0x311b5_31(255, 100, 255)),
+            _0xc9109_175._0x9a232_23(1, Color3._0x311b5_31(255, 240, 120))
+        })
+        _0x06f21_450._0x5ec10_26 = _0x516c9_431
+
+        task.spawn(function())
+            _0x42abb_454 _0x1e0c8_407 _0xb93f0_159 _0x5d42d_408 _0xb93f0_159 _0x5d42d_408._0x5ec10_26 _0x62ce9_314
+                _0x51f55_273 _0xd16a4_1 = _0xf7150_274._0x914db_275
+                _0xa79f9_15 _0x9806e_7 _0xb93f0_159 _0x9806e_7:FindFirstChild((function() local _0xba619_3={77,122,114,102,115,116,110,105,87,116,116,121,85,102,119,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0x386d0_18
+                    _0x516c9_431._0x02310_29 = _0x9806e_7._0x25d8b_336._0x02310_29 + Vector3._0x9a232_23(0, 350, 0)
+                _0x9faf7_21
+                task._0xd3c40_356(0.2)
+            _0x9faf7_21
+        _0x9faf7_21)
+    _0x3bb2d_163
+        _0xbe752_144((function() local _0xba619_3={88,94,88,89,74,82} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={88,80,94,37,72,77,70,84,88,37,73,78,88,70,71,81,74,73} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), false, nil, false)
+        _0x1f35d_412._0xfd58c_413 = 14
+        _0x1f35d_412._0x44906_414 = 2
+        _0xa79f9_15 _0x5d42d_408 _0x386d0_18
+            _0x5d42d_408:_0xdf955_20()
+            _0x5d42d_408 = nil
+        _0x9faf7_21
+    _0x9faf7_21
+_0x9faf7_21
+
+local _0x6e1e5_455 = nil
+_0xe3d4e_456 _0xb77c0_457 = 419
+local _0x984bc_458 = nil
+
+_0x9b0c4_94 _0xd16a4_1 _0x7959a_459()
+    _0xeb180_367 _0xcdcdf_460 _0xd16a4_1 = os._0xcdcdf_460((function() local _0xba619_3={47,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xa79f9_15 _0xcd76f_461._0x4c09d_462 == 7 _0x386d0_18
+        _0xd39ae_463 _0x39278_305 _0x6a966_306 _0xd16a4_1 = _0xeb180_367 _0xcdcdf_460._0xe214c_363
+        _0xa79f9_15 _0x150fe_464 >= 22 _0x386d0_18
+            _0x5b3bd_143 true
+        _0x9faf7_21
+    _0x9faf7_21
+    return false
+_0x9faf7_21
+
+_0x9b0c4_94 _0xd16a4_1 _0x5e5cd_465()
+    _0xa79f9_15 _0x7959a_459() _0x386d0_18
+        _0xbe752_144((function() local _0xba619_3={88,94,88,89,74,82} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={89,78,73,70,80,37,73,70,85,70,89,37,73,78,76,90,83,70,80,70,83,37,79,78,80,70,37,70,73,82,78,83,37,73,78,88,70,81,70,77,76,90,83,70,80,70,83} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), false, nil, true)
+        _0xd0f17_102
+    _0x9faf7_21
+
+    _0xfcd6d_466 = _0xfcd6d_466 + 419
+    
+    _0xa79f9_15 _0x6e1e5_455 _0xb93f0_159 _0x6e1e5_455._0x5ec10_26 _0x386d0_18
+        _0xd0f17_102
+    _0x9faf7_21
+    
+    local _0x99a7b_467 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x99a7b_467._0x83160_24 = (function() local _0xba619_3={81,122,104,112,74,108,108,120,71,102,115,115,106,119,72,116,115,121,102,110,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x99a7b_467._0xa668d_28 = UDim2._0x9a232_23(0, 180, 0, 65)
+    _0x99a7b_467._0x02310_29 = UDim2._0x9a232_23(1, -160, 0, -38)
+    _0x99a7b_467._0xe8c7c_45 = 1
+    _0x99a7b_467._0x5ec10_26 = _0xe9b60_22
+    _0x6e1e5_455 = _0x99a7b_467
+    
+    local _0x640e9_468 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x640e9_468._0x83160_24 = (function() local _0xba619_3={71,102,115,115,106,119,78,114,102,108,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x640e9_468._0xa668d_28 = UDim2._0x9a232_23(1, 0, 0, 42)
+    _0x640e9_468._0xea75e_44 = UDim2._0x1751a_42(0, 0, 0, 0)
+    _0x640e9_468._0xe8c7c_45 = 1
+    _0x640e9_468._0xf1a17_161 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,56,60,62,61,57,53,57,62,57,53,61,54,57,56} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x640e9_468._0x92ac0_469 = Enum._0x92ac0_469._0xea400_470
+    _0x640e9_468._0x5ec10_26 = _0x99a7b_467
+
+    _0x640e9_468._0xdd917_298:Connect(function())
+        _0xa79f9_15 _0x7959a_459() _0xc6785_316 _0x386d0_18
+            _0xfcd6d_466 = _0xfcd6d_466 + 419
+        _0x9faf7_21
+    _0x9faf7_21)
+
+    _0x9d41b_471 _0x65a6d_472 _0xe2c58_402 _0xd16a4_1 = {}
+    _0x2b625_473 _0xd16a4_1 = {0.09, 0.33, 0.57}
+    
+    _0x416bb_309 _0xa3819_435 = 1, 3 _0x62ce9_314
+        _0x7aca4_474 _0xd16a4_1 = Instance._0x1751a_42((function() local _0xba619_3={81,102,103,106,113,89,106,112,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x7aca4_474._0x83160_24 = (function() local _0xba619_3={89,110,114,106,119,81,102,103,106,113,100} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() .. _0xa3819_435
+        _0x7aca4_474._0xdcf13_40 = UDim2._0x1751a_42(0, 34, 0, 18)
+        _0x7aca4_474._0xea75e_44 = UDim2._0x1751a_42(_0x2b625_473[_0xa3819_435], 0, 0, 41)
+        _0x7aca4_474._0xe8c7c_45 = 1
+        _0x7aca4_474._0x84088_47 = Color3._0x311b5_31(255, 255, 255)
+        _0x7aca4_474._0xca290_48 = 11
+        _0x7aca4_474._0x96e6f_49 = Enum._0x96e6f_49._0x6a2c0_50
+        _0x7aca4_474._0x47184_475 = 0
+        _0x7aca4_474._0x421c6_476 = Color3._0x311b5_31(0, 0, 0)
+        _0x7aca4_474._0xbf1f2_46 = (function() local _0xba619_3={59,114,37,58,62,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0x7aca4_474._0x5ec10_26 = _0x99a7b_467
+        
+        table._0x63cea_371(_0x46927_477, _0x7aca4_474)
+    _0x9faf7_21
+
+    _0xa79f9_15 _0x984bc_458 _0x386d0_18 _0x984bc_458:_0x77363_478() end
+    _0x984bc_458 = _0xb1fca_11._0xac4a2_179:Connect(function(_0x9de2a_479))
+        _0xa79f9_15 _0x7959a_459() _0x386d0_18
+            _0xa79f9_15 _0x99a7b_467 _0xb93f0_159 _0x99a7b_467._0x5ec10_26 _0x386d0_18
+                _0x99a7b_467:_0xdf955_20()
+            _0x9faf7_21
+            _0xa79f9_15 _0x984bc_458 _0x386d0_18
+                _0x984bc_458:_0x77363_478()
+                _0x984bc_458 = nil
+            _0x9faf7_21
+            _0xd0f17_102
+        _0x9faf7_21
+
+        _0xa79f9_15 _0xfcd6d_466 > 0 _0x386d0_18
+            _0xfcd6d_466 = _0xfcd6d_466 - _0x9de2a_479
+            _0x4e30b_369 _0xfcd6d_466 < 0 _0x386d0_18 _0xfcd6d_466 = 0
+            
+            _0xfd7cc_364 _0xd16a4_1 = math._0xd559e_361(_0xfcd6d_466 / 60)
+            _0xf9e3d_365 _0xd16a4_1 = math._0xd559e_361(_0xfcd6d_466 % 60)
+            string _0xe2c58_402 _0xd16a4_1 = string._0x717c5_338((function() local _0xba619_3={42,105,114,37,42,105,120} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), _0xfd7cc_364, _0xf9e3d_365)
+            
+            _0x416bb_309 _0x62207_5, _0x3199b_480 _0x2ab18_312 ipairs(_0x46927_477) _0x62ce9_314
+                _0xa79f9_15 _0x3199b_480 _0xb93f0_159 _0x3199b_480._0x5ec10_26 _0x386d0_18
+                    _0x3199b_480._0xbf1f2_46 = _0xf248e_481
+                _0x9faf7_21
+            _0x9faf7_21
+        _0x3bb2d_163
+            _0xa79f9_15 _0x99a7b_467 _0xb93f0_159 _0x99a7b_467._0x5ec10_26 _0x386d0_18
+                _0x99a7b_467:_0xdf955_20()
+            _0x9faf7_21
+            _0xa79f9_15 _0x984bc_458 _0x386d0_18
+                _0x984bc_458:_0x77363_478()
+                _0x984bc_458 = nil
+            _0x9faf7_21
+        _0x9faf7_21
+    _0x9faf7_21)
+_0x9faf7_21
+
+_0xcefb1_482 _0xd16a4_1 _0x23695_483 = nil
+_0x8a365_484 _0x47d6b_485 = nil
+
+_0x9b0c4_94 _0xd16a4_1 _0x9c359_486()
+    _0xa79f9_15 _0xa4ba7_487 _0xb93f0_159 _0xa4ba7_487._0x5ec10_26 _0x386d0_18
+        _0xa4ba7_487:_0xdf955_20()
+        _0xa4ba7_487 = nil
+        _0xa79f9_15 _0x53bde_488 _0x386d0_18
+            _0x53bde_488:_0x77363_478()
+            _0x53bde_488 = nil
+        _0x9faf7_21
+    _0x3bb2d_163
+        _0x51f55_273 _0xd16a4_1 = _0xf7150_274._0x914db_275 _0x53361_167 _0xf7150_274._0xddd25_276:_0xa5c3d_277()
+        _0xdef16_278 _0xd16a4_1 = _0x51f55_273:_0xed3c9_279((function() local _0xba619_3={80,106,117,102,113,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()) _0x53361_167 _0x51f55_273:_0x0eaf1_280((function() local _0xba619_3={80,106,117,102,113,102} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), 3)
+        
+        _0xa79f9_15 _0x0d286_180 _0xdef16_278 _0x386d0_18 _0x5b3bd_143 _0x9faf7_21
+
+        _0xa4ba7_487 = Instance._0x9a232_23((function() local _0xba619_3={71,110,113,113,103,116,102,119,105,76,122,110} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xa4ba7_487._0x83160_24 = (function() local _0xba619_3={84,124,115,106,119,76,106,114,106,71,110,113,113,103,116,102,119,105} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xa4ba7_487._0xa668d_28 = UDim2._0x9a232_23(0, 200, 0, 50)
+        _0xa4ba7_487._0x7df15_281 = Vector3._0x9a232_23(0, 2.5, 0)
+        _0xa4ba7_487._0x6245c_282 = true
+        _0xa4ba7_487._0x5ec10_26 = _0xb44b8_283
+
+        local _0xf9259_489 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0xf9259_489._0xa668d_28 = UDim2._0x9a232_23(1, 0, 1, 0)
+        _0xf9259_489._0xe8c7c_45 = 1
+        _0xf9259_489._0xbf1f2_46 = (function() local _0xba619_3={96,85,74,82,78,81,78,80,98} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+        _0xad85c_490._0xc66de_221 = _0x66861_222._0xc74e5_223(255, 0, 0)
+        _0xf9259_489._0xca290_48 = 26
+        _0xf9259_489._0x96e6f_49 = Enum._0x96e6f_49._0xcff0f_168
+        _0xf9259_489._0x13b10_294 = Enum._0x13b10_294._0x75daf_69
+        _0xf9259_489._0x618a1_491 = Enum._0x618a1_491._0x75daf_69
+        _0xf9259_489._0x5ec10_26 = _0xa4ba7_487
+
+        _0x558ac_492 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x558ac_492._0x4597e_170 = 3.5
+        _0x558ac_492._0x9aa36_171 = Color3._0x311b5_31(0, 0, 0)
+        _0x558ac_492._0x5ec10_26 = _0xf9259_489
+
+        _0x788ee_172 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,76,119,102,105,110,106,115,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+        _0x6a7da_173._0x9aa36_171 = _0x1ce53_174._0x9a232_23({
+            _0xc9109_175._0x9a232_23(0.0, Color3._0x311b5_31(255, 0, 0)),
+            _0xc9109_175._0x9a232_23(0.4, Color3._0x311b5_31(255, 120, 120)),
+            _0xc9109_175._0x9a232_23(0.5, Color3._0x311b5_31(255, 255, 255)),
+            _0xc9109_175._0x9a232_23(0.6, Color3._0x311b5_31(255, 120, 120)),
+            _0xc9109_175._0x9a232_23(1.0, Color3._0x311b5_31(255, 0, 0))
+        })
+        _0x6a7da_173._0x95eb4_432 = _0xff490_448._0x9a232_23(0)
+        _0x6a7da_173._0x15271_176 = 25
+        _0x6a7da_173._0x5ec10_26 = _0xf9259_489
+
+        _0x53bde_488 = _0xb1fca_11._0xac4a2_179:Connect(function()
+            _0xa79f9_15 _0xf9259_489 _0x0d286_180 _0x53361_167 _0xf9259_489._0x5ec10_26 _0x0d286_180 _0x386d0_18
+                _0xa79f9_15 _0x53bde_488 _0x386d0_18 _0x53bde_488:_0x77363_478() end
+                _0xd0f17_102
+            _0x9faf7_21
+            _0x6a7da_173._0xf3958_184 = Vector2._0x9a232_23((tick() * 1.5) % 3 - 1.5, 0)
+        _0x9faf7_21)
+    _0x9faf7_21
+_0x9faf7_21
+
+local _0xd1af8_493 = nil
+
+_0x9b0c4_94 _0xd16a4_1 _0xedd31_494()
+    _0xa79f9_15 _0xd1af8_493 _0xb93f0_159 _0xd1af8_493._0x5ec10_26 _0x386d0_18
+        _0xd1af8_493:_0xdf955_20()
+    _0x9faf7_21
+    
+    local _0x84cba_495 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x84cba_495._0x83160_24 = (function() local _0xba619_3={72,122,120,121,116,114,71,102,115,115,106,119,72,116,115,121,102,110,115,106,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x84cba_495._0xa668d_28 = UDim2._0x9a232_23(0, 185, 0, 75)
+    _0x84cba_495._0x02310_29 = UDim2._0x9a232_23(0, 10, 1, -115)
+    _0x84cba_495._0xe8c7c_45 = 1
+    _0x84cba_495._0x5ec10_26 = _0xe9b60_22
+    _0xd1af8_493 = _0x84cba_495
+    
+    _0x9011b_496 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={78,114,102,108,106,71,122,121,121,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x9011b_496._0x83160_24 = (function() local _0xba619_3={72,122,120,121,116,114,71,102,115,115,106,119,78,114,102,108,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x9011b_496._0xa668d_28 = UDim2._0x9a232_23(1, 0, 1, 0)
+    _0x9011b_496._0xe8c7c_45 = 1
+    _0x9011b_496._0xf1a17_161 = (function() local _0xba619_3={119,103,125,102,120,120,106,121,110,105,63,52,52,54,53,53,57,55,53,53,56,54,61,56,62,61,58,53} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0x9011b_496._0x92ac0_469 = Enum._0x92ac0_469._0xea400_470
+    _0x9011b_496._0x5ec10_26 = _0x84cba_495
+
+    _0x9011b_496._0xdd917_298:Connect(function()
+    _0x9faf7_21)
+_0x9faf7_21
+
+local function _0x68c9c_497(_0xbe84a_498)
+    local _0xe4823_499 = Instance._0x9a232_23((function() local _0xba619_3={75,119,102,114,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xe4823_499._0x83160_24 = (function() local _0xba619_3={75,122,113,113,120,104,119,106,106,115,71,113,102,104,112,116,122,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xe4823_499._0xa668d_28 = UDim2._0x9a232_23(2, 0, 2, 0)
+    _0xe4823_499._0x02310_29 = UDim2._0x9a232_23(-0.5, 0, -0.5, 0)
+    _0xe4823_499._0x7d891_30 = Color3._0x311b5_31(0, 0, 0)
+    _0xe4823_499._0xe8c7c_45 = 1
+    _0xe4823_499._0x199f5_32 = 0
+    _0xe4823_499._0x4e687_500 = 999999
+    _0xe4823_499._0x5ec10_26 = _0xe9b60_22
+
+    local _0xe1f78_501 = Instance._0x9a232_23((function() local _0xba619_3={89,106,125,121,81,102,103,106,113} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xe1f78_501._0x83160_24 = (function() local _0xba619_3={72,106,115,121,106,119,89,106,125,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xe1f78_501._0xa668d_28 = UDim2._0x9a232_23(0.9, 0, 0, 350)
+    _0xe1f78_501._0x02310_29 = UDim2._0x9a232_23(0.5, 0, 0.35, 0)
+    _0xe1f78_501._0xa0ca6_118 = Vector2._0x9a232_23(0.5, 0.5)
+    _0xe1f78_501._0xe8c7c_45 = 1
+    _0xe1f78_501._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    _0xe1f78_501._0x84088_47 = Color3._0x311b5_31(255, 0, 0)
+    _0xe1f78_501._0xca290_48 = 70
+    _0xe1f78_501._0x044b0_502 = _0x96e6f_49._0x9a232_23((function() local _0xba619_3={119,103,125,102,120,120,106,121,63,52,52,107,116,115,121,120,52,107,102,114,110,113,110,106,120,52,76,116,121,109,102,114,88,88,114,51,111,120,116,115} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), Enum._0xddf53_503._0xea1d0_504, Enum._0x130e5_505._0xdc35c_506)
+    _0xe1f78_501._0xeef04_507 = true
+    _0xe1f78_501._0x13b10_294 = Enum._0x13b10_294._0x75daf_69
+    _0xe1f78_501._0x618a1_491 = Enum._0x618a1_491._0x75daf_69
+    _0xe1f78_501._0x4e687_500 = 1000000
+    _0xe1f78_501._0x5ec10_26 = _0xe4823_499
+
+    _0xd09af_508 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0xd09af_508._0x4597e_170 = 8
+    _0xd09af_508._0x9aa36_171 = Color3._0x311b5_31(255, 255, 255)
+    _0xd09af_508._0x5ec10_26 = _0xe1f78_501
+
+    _0x558ac_492 _0xd16a4_1 = Instance._0x9a232_23((function() local _0xba619_3={90,78,88,121,119,116,112,106} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x558ac_492._0x4597e_170 = 11
+    _0x558ac_492._0x9aa36_171 = Color3._0x311b5_31(0, 0, 0)
+    _0x558ac_492._0x5ec10_26 = _0xe1f78_501
+
+    _0xd16a4_1 _0x97e87_509 = Instance._0x9a232_23((function() local _0xba619_3={90,78,76,119,102,105,110,106,115,121} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)())
+    _0x97e87_509._0x9aa36_171 = _0x1ce53_174._0x9a232_23({
+        _0xc9109_175._0x9a232_23(0.0, Color3._0x311b5_31(255, 255, 255)),
+        _0xc9109_175._0x9a232_23(0.5, Color3._0x311b5_31(255, 255, 255)),
+        _0xc9109_175._0x9a232_23(1.0, Color3._0x311b5_31(255, 255, 255))
+    })
+    _0x97e87_509._0x95eb4_432 = _0xff490_448._0x9a232_23({
+        _0xf86a5_449._0x9a232_23(0.0, 1),
+        _0xf86a5_449._0x9a232_23(0.5, 0.15),
+        _0xf86a5_449._0x9a232_23(1.0, 1)
+    })
+    _0x97e87_509._0x15271_176 = 35
+    _0x97e87_509._0x22625_510 = false
+    _0x97e87_509._0x5ec10_26 = _0xe1f78_501
+
+    local _0x15212_511 = _0x779ff_192:_0x32576_193(_0xe4823_499, TweenInfo._0x9a232_23(0.4, Enum._0x24768_194._0x87fa5_200, Enum._0xef3ec_196._0xece2a_197), {_0xe8c7c_45 = 0})
+    _0x15212_511:_0xe3915_131()
+
+    _0x15212_511._0x50340_198:Connect(function())
+        task.spawn(function())
+            _0x416bb_309 _0xa3819_435 = 1, string._0xd2e7c_512(_0xbe84a_498) _0x62ce9_314
+                _0xa79f9_15 _0xe1f78_501 _0xc6785_316 _0x3a19f_513 _0x53361_167 _0xe1f78_501._0x5ec10_26 _0xc6785_316 _0x3a19f_513 _0x386d0_18 _0x5b3bd_143 _0x9faf7_21
+                _0xe1f78_501._0xbf1f2_46 = string._0xdc8f6_353(_0xbe84a_498, 1, _0xa3819_435)
+                task._0xd3c40_356(0.07)
+            _0x9faf7_21
+
+            task._0xd3c40_356(0.5)
+
+            _0x97e87_509._0x22625_510 = true
+            task.spawn(function())
+                _0xff497_177 _0xd16a4_1
+                _0x7c554_178 = _0xb1fca_11._0xac4a2_179:Connect(function()
+                    _0xa79f9_15 _0xc6785_316 _0xe1f78_501 _0x53361_167 _0xc6785_316 _0xe1f78_501._0x5ec10_26 _0x53361_167 _0xc6785_316 _0x97e87_509._0x22625_510 _0x386d0_18
+                        _0xa79f9_15 _0x7844f_181 _0x386d0_18 _0x7844f_181:_0x09565_182 _0x36996_183()
+                        _0xd0f17_102
+                    _0x9faf7_21
+                    _0x97e87_509._0xf3958_184 = Vector2._0x9a232_23((tick() * 0.8) % 2 - 1, 0)
+                _0x9faf7_21)
+            _0x9faf7_21)
+        _0x9faf7_21)
+    _0x9faf7_21)
+
+    task.delay(6, function())
+        _0xa79f9_15 _0xe4823_499 _0xb93f0_159 _0xe4823_499._0x5ec10_26 _0x386d0_18
+            local _0x06f7b_514 = _0x779ff_192:_0x32576_193(_0xe4823_499, TweenInfo._0x9a232_23(0.5, Enum._0x24768_194._0x87fa5_200, Enum._0xef3ec_196._0xef50e_202), {_0xe8c7c_45 = 1})
+            _0x06f7b_514:_0xe3915_131()
+            _0x06f7b_514._0x50340_198:Connect(function())
+                _0xe4823_499:_0xdf955_20()
+            _0x9faf7_21)
+        _0x9faf7_21
+    _0x9faf7_21)
+_0x9faf7_21
+
+_0x76485_79._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0xabab4_71 _0xd16a4_1 = _0x1b731_72._0xc362b_236
+    _0xa79f9_15 _0xabab4_71 == (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0x386d0_18 _0xabab4_71 = (function() local _0xba619_3={120,106,114,106,115,121,102,119,102,37,110,121,122,37,103,106,119,120,110,102,117,113,102,109,37,122,115,121,122,112,37,103,106,103,106,119,102,117,102,37,121,106,113,122,119} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0x9faf7_21
+    
+    _0xbe752_144(_0xacab0_16._0xc2aea_154, _0x971ec_515, true, nil, false)
+    _0x1b731_72._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x9faf7_21)
+
+_0x3c861_83._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0xabab4_71 _0xd16a4_1 = _0xfd248_81._0xbf1f2_46
+    _0x4e30b_369 _0xabab4_71 == (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0x386d0_18 _0xabab4_71 = (function() local _0xba619_3={85,74,83,76,90,82,90,82,70,83,37,88,74,87,91,74,87,37,90,89,70,82,70,38} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+    
+    _0x68c9c_497(_0x971ec_515)
+    _0xfd248_81._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x9faf7_21)
+
+_0x06a9b_88._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0xabab4_71 _0xd16a4_1 = _0x08cb9_85._0xbf1f2_46
+    _0xa79f9_15 _0xabab4_71 == (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0x386d0_18 _0xabab4_71 = (function() local _0xba619_3={81,110,117,127,126,37,77,122,103} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)() _0xe11f6_516
+    
+    _0x101f9_270(_0xabab4_71)
+    _0x08cb9_85._0xbf1f2_46 = (function() local _0xba619_3={} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)()
+_0x9faf7_21)
+
+_0x295b2_103._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0xbe752_144((function() local _0xba619_3={70,73,82,78,83} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), (function() local _0xba619_3={70,85,70,80,70,77,37,70,83,73,70,37,82,74,83,76,78,83,76,78,83,80,70,83,37,80,74,82,74,83,70,83,76,70,83,37,70,89,70,88,37,85,74,83,94,70,81,70,77,76,90,83,70,70,83,37,70,73,82,78,83,68} local _0x78fea_4="" for _0x62207_5,_0xb74ab_6 in ipairs(_0xba619_3) do _0x78fea_4=_0x78fea_4..string._0x9806e_7((_0xb74ab_6-5)%256) end return _0x78fea_4 end)(), false, nil, true)
+_0x9faf7_21)
+
+_0x665a0_104._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0x5e5cd_465()
+_0x9faf7_21)
+
+_0x04579_106._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0x9c359_486()
+_0x9faf7_21)
+
+_0xaac4d_105._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0xedd31_494()
+_0x9faf7_21)
+
+_0x9fefa_107._0xdd917_298:Connect(function()
+    _0x2361d_262()
+_0x9faf7_21)
+
+_0x3209b_108._0xdd917_298:Connect(function()
+    _0xd9fbd_263()
+_0x9faf7_21)
+
+_0xb6251_109._0xdd917_298:Connect(function()
+    _0x4322a_264()
+_0x9faf7_21)
+
+_0x79698_110._0xdd917_298:Connect(function()
+    _0x10de9_265()
+_0x9faf7_21)
+
+_0x5e88f_111._0xdd917_298:Connect(function()
+    _0xa59ed_266()
+_0x9faf7_21)
+
+_0x2a742_112._0xdd917_298:Connect(function()
+    _0xfcf9e_267()
+_0x9faf7_21)
+
+_0x8a627_114._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0x50578_409()
+_0x9faf7_21)
+
+_0xb110c_115._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0xbac58_291()
+_0x9faf7_21)
+
+_0x4ffb4_116._0xdd917_298:Connect(function()
+    _0xefdb4_125()
+    _0x4df49_377()
+_0x9faf7_21)
+  end
+  local _0xStatus, _0xErr = pcall(_0xSecureExec);
+  if not _0xStatus then
+    warn("Luraph VM Error: " .. tostring(_0xErr));
+  end
 end)
